@@ -8,14 +8,16 @@
 # Site settings
 title: "data experts"
 email: office@data-experts.de
-description: "A support page."
-baseurl: "support_site"
-url: ""
+description: "A support page"
+domain: anasshahab.github.io
+baseurl: /support_site/
+url: https://anasshahab.github.io
 twitter_username: ""
 github_username:  ""
 color_theme:  "#006400"
 color_text:  "#fff"
 language:  "en"
+
 
 # Build settings
 markdown: kramdown

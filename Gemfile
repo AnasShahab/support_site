@@ -1,7 +1,8 @@
 source 'http://rubygems.org'
 
 group :jekyll_plugins do
-  gem 'jekyll'
+  #gem 'jekyll'
+  gem "github-pages", "~>  	215"
   gem 'jekyll-admin'
   gem 'jekyll-paginate'
   gem 'support-for'
