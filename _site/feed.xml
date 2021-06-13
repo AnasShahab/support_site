@@ -3,10 +3,10 @@
   <channel>
     <title>data experts</title>
     <description>A support page.</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 14 Jun 2021 01:07:33 +0200</pubDate>
-    <lastBuildDate>Mon, 14 Jun 2021 01:07:33 +0200</lastBuildDate>
+    <link>http://localhost:4000support_site/</link>
+    <atom:link href="http://localhost:4000support_site/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 14 Jun 2021 01:20:01 +0200</pubDate>
+    <lastBuildDate>Mon, 14 Jun 2021 01:20:01 +0200</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -14,8 +14,8 @@
         <description>
 </description>
         <pubDate>Sat, 12 Jun 2021 21:46:41 +0200</pubDate>
-        <link>http://localhost:4000/start/blog/2021/06/12/question-4.html</link>
-        <guid isPermaLink="true">http://localhost:4000/start/blog/2021/06/12/question-4.html</guid>
+        <link>http://localhost:4000support_site/start/blog/2021/06/12/question-4.html</link>
+        <guid isPermaLink="true">http://localhost:4000support_site/start/blog/2021/06/12/question-4.html</guid>
         
         
         <category>start</category>
@@ -29,8 +29,8 @@
         <description>
 </description>
         <pubDate>Sat, 12 Jun 2021 21:46:41 +0200</pubDate>
-        <link>http://localhost:4000/start/blog/2021/06/12/question-3.html</link>
-        <guid isPermaLink="true">http://localhost:4000/start/blog/2021/06/12/question-3.html</guid>
+        <link>http://localhost:4000support_site/start/blog/2021/06/12/question-3.html</link>
+        <guid isPermaLink="true">http://localhost:4000support_site/start/blog/2021/06/12/question-3.html</guid>
         
         
         <category>start</category>
@@ -44,8 +44,8 @@
         <description>
 </description>
         <pubDate>Sat, 12 Jun 2021 21:46:41 +0200</pubDate>
-        <link>http://localhost:4000/start/blog/2021/06/12/question-2.html</link>
-        <guid isPermaLink="true">http://localhost:4000/start/blog/2021/06/12/question-2.html</guid>
+        <link>http://localhost:4000support_site/start/blog/2021/06/12/question-2.html</link>
+        <guid isPermaLink="true">http://localhost:4000support_site/start/blog/2021/06/12/question-2.html</guid>
         
         
         <category>start</category>
@@ -59,8 +59,8 @@
         <description>
 </description>
         <pubDate>Sat, 12 Jun 2021 21:46:41 +0200</pubDate>
-        <link>http://localhost:4000/start/blog/2021/06/12/question-1.html</link>
-        <guid isPermaLink="true">http://localhost:4000/start/blog/2021/06/12/question-1.html</guid>
+        <link>http://localhost:4000support_site/start/blog/2021/06/12/question-1.html</link>
+        <guid isPermaLink="true">http://localhost:4000support_site/start/blog/2021/06/12/question-1.html</guid>
         
         
         <category>start</category>

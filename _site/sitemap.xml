@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/start/blog/2021/06/12/question-1.html</loc>
+<loc>http://localhost:4000/support_site/start/blog/2021/06/12/question-1.html</loc>
 <lastmod>2021-06-12T21:46:41+02:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/start/blog/2021/06/12/question-2.html</loc>
+<loc>http://localhost:4000/support_site/start/blog/2021/06/12/question-2.html</loc>
 <lastmod>2021-06-12T21:46:41+02:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/start/blog/2021/06/12/question-3.html</loc>
+<loc>http://localhost:4000/support_site/start/blog/2021/06/12/question-3.html</loc>
 <lastmod>2021-06-12T21:46:41+02:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/start/blog/2021/06/12/question-4.html</loc>
+<loc>http://localhost:4000/support_site/start/blog/2021/06/12/question-4.html</loc>
 <lastmod>2021-06-12T21:46:41+02:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/</loc>
+<loc>http://localhost:4000/support_site/</loc>
 </url>
 </urlset>
