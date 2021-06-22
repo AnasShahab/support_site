@@ -9,17 +9,18 @@
       <h1>Support Page</h1>
     </div>
 
-    <a href="https://www.data-experts.de" data-aos="fade-left" data-aos-delay="" data-aos-offset="0">
+    <a href="{{ '/' | absolute_url }}events" data-aos="fade-left" data-aos-delay="" data-aos-offset="0">
       <div class="container align-items-baseline back-to-site">
         <div class="">
           <span class="feather-icon icon-external-link"></span>
         </div>
         <div class="back-to-site-text">
-          Back to website
+          Events
         </div>
       </div>
     </a>
-    <!-- <nav class="masthead-nav">
+    
+<!--     <nav class="masthead-nav">
       {% for page in site.pages %}
       {% if page.title %}
       <a href="{{ page.url | prepend: site.baseurl }}">
