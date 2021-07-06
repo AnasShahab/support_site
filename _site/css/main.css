@@ -46,12 +46,19 @@ img { max-width: 100%; }
 
 .header { min-height: 200px; background: url("../assets/img/pattern2.svg"), rgba(0, 100, 0, 0.9); background-size: 310px; width: 100%; }
 .header .header--block { color: #fff; }
-.header .header--block .header--block--input { display: flex; align-items: center; background: #fff; margin-top: 20px; border-radius: 4px; overflow: hidden; width: 100%; opacity: 0.5; transition: 0.3s; }
+.header .header--block .header--block--input { display: flex; align-items: center; background: #fff; margin-top: 20px; margin-bottom: 20px; border-radius: 4px; overflow: hidden; width: 100%; opacity: 0.5; transition: 0.3s; }
 .header .header--block .header--block--input:focus-within { opacity: 1; box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1); }
 .header .header--block .header--block--input:focus-within .header--block--input--icon { opacity: 1; }
 .header .header--block .header--block--input .header--block--input--icon { display: flex; align-content: center; justify-content: center; margin: 10px; box-sizing: border-box; opacity: 0.5; }
 .header .header--block .header--block--input .header--block--input--icon span { color: black; }
 .header .header--block .header--block--input .input-search { width: 100%; height: 60px; border: none; box-sizing: border-box; outline: none; font-size: 16px; background: transparent; }
+.header .dropbtn { background-color: black; color: white; padding: 16px; font-size: 16px; cursor: pointer; border: none; }
+.header .dropbtn:hover, .header .dropbtn:focus { background-color: darkolivegreen; }
+.header .dropdown { position: relative; display: inline-block; margin-right: 10px; }
+.header .dropdown-content { display: none; position: absolute; background-color: #f1f1f1; min-width: 100px; overflow: auto; box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); z-index: 1; }
+.header .dropdown-content a { color: black; padding: 4px 14px; text-decoration: none; display: block; }
+.header .dropdown a:hover { background-color: darkgreen; }
+.header .show { display: block; }
 
 .position-search { position: relative; }
 
@@ -60,6 +67,8 @@ img { max-width: 100%; }
 .header--block--result ul li { border-bottom: 1px solid #ddd; border-left: 1px solid #ddd; border-right: 1px solid #ddd; padding: 10px; box-sizing: border-box; }
 .header--block--result ul li:first-child { border-top: 1px solid #ddd; }
 .header--block--result ul li a:hover { color: #006400; }
+
+.cancel-btn { margin-left: 2px; background-color: red; color: white; padding: 12px; font-size: 12px; cursor: pointer; border: none; }
 
 .footer { min-height: 200px; background: #ECECEC; overflow: hidden; }
 .footer .footer--block a { color: #006400; }

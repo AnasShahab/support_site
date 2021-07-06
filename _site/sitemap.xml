@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/support_site/start/blog/2021/06/12/question-1.html</loc>
+<loc>http://localhost:4000/support_site/random/2021/06/12/question-1.html</loc>
 <lastmod>2021-06-12T21:46:41+02:00</lastmod>
 </url>
 <url>
@@ -17,9 +17,19 @@
 <lastmod>2021-06-12T21:46:41+02:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/support_site/primary/2021/07/04/question-5.html</loc>
+<lastmod>2021-07-04T21:46:41+02:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/support_site/events.html</loc>
 </url>
 <url>
 <loc>http://localhost:4000/support_site/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/support_site/post_sort_primary.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/support_site/post_sort_secondary.html</loc>
 </url>
 </urlset>

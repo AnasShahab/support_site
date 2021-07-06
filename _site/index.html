@@ -14,11 +14,11 @@
   <link rel="icon" href="http://localhost:4000/support_site//assets/img/favicon.png">
 
   <!-- facebook -->
-  <meta property="og:title" content="data experts" />
+  <meta property="og:title" content="Support Page" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="http://localhost:4000" />
   <meta property="og:description" content="A support page" />
-  <meta property="og:site_name" content="data experts" />
+  <meta property="og:site_name" content="Support Page" />
   <meta property="og:image" content="http://localhost:4000/support_site//assets/img/image.png" />
   <meta property="fb:app_id" content="1154262757941899" />
   <meta property="fb:admins" content="100002787447461" />
@@ -26,11 +26,11 @@
 
   <!-- twitter -->
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="data experts">
+  <meta name="twitter:title" content="Support Page">
   <meta name="twitter:description" content="A support page">
   <meta name="twitter:creator" content="">
   <meta name="twitter:image" content="http://localhost:4000/support_site//assets/img/image.png">
-  <meta itemprop="name" content="data experts">
+  <meta itemprop="name" content="Support Page">
   <meta itemprop="description" content="A support page">
   <meta itemprop="image" content="http://localhost:4000/support_site//assets/img/image.png">
   <!-- twitter -->
@@ -42,7 +42,7 @@
     <div class="menu">
   <div class="size margin menu--content container align-items-center justify-content-between">
 
-    <div class="" data-aos="fade-right" data-aos-delay="" data-aos-offset="0">
+    <div class="" data-aos="fade-right" data-aos-delay="data experts" data-aos-offset="0">
       <a href="https://www.data-experts.de">data experts</a>
     </div>
 
@@ -79,6 +79,10 @@
       
       
       
+      
+      
+      
+      
     </nav> -->
   </div>
 </div>
@@ -86,27 +90,74 @@
 
     <div class="bg-header">
   <header>
-
+  http://localhost:4000/support_site/
+  hey
+  /
   <div class="header container align-items-center justify-content-center">
     <div class="header--block size margin container column">
+
       <div class="header--block--text" data-aos="fade-up" data-aos-delay="" data-aos-offset="0">
         Advice and answers from the data experts Team
       </div>
-      <div class="container column position-search">
+
+      <div class="container align-items-center">
+
+        <div class="dropdown">
+          <button onclick="myFunction()" class="dropbtn">Sort</button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="http://localhost:4000/support_site/post_sort_primary.html">Primary</a>
+            <a href="http://localhost:4000/support_site/post_sort_secondary.html">Secondary</a>
+          </div>
+        </div>
+
+        <!-- <div class="container column position-search"> -->
+        
         <div class="header--block--input" data-aos="fade-up" data-aos-delay="" data-aos-offset="0" id="search-container">
+
+       
+
           <div class="header--block--input--icon">
             <!-- <img src="/support_site//assets/img/icons/search-input.svg" width="30" alt=""> -->
             <span class="feather-icon icon-search"></span>
           </div>
+
           <input class="input-search" type="text" name="" value="" placeholder="Search for posts..." id="search-input">
+
         </div>
+
         <div class="header--block--result">
           <ul id="results-container"></ul>
         </div>
+
+        <!-- </div> -->
+  
       </div>
+      
     </div>
   </div>
 
+
+  <script>
+    /* When the user clicks on the button, 
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+    
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+    </script>
 
 </header>
 
@@ -118,6 +169,37 @@
   
   
   
+
+  <a href="/support_site//primary/2021/07/04/question-5.html" class="list-item container" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100">
+
+
+<!--     <div class="list-item-icon container align-items-center justify-content-center">
+      <span class="feather-icon icon-credit-card" data-aos="fade-right" data-aos-offset="0" data-aos-delay="500"></span>
+    </div> -->
+
+    <div class="flex-grow-1">
+      <div class="" data-aos="fade-up" data-aos-delay="600" data-aos-offset="0">
+
+          <h2 class="list-post-title">
+            jekyll  <sub><i> | primary</i></sub>
+          </h2>
+    
+      </div>
+
+      <div class="" data-aos="fade-up" data-aos-delay="700" data-aos-offset="0">
+        <span class="list-post-description">Jekyll is a simple, blog-aware, static site generator for personal, project, or organization sites.</span>
+      </div>
+
+      <div class="list-post-written" data-aos="fade-up" data-aos-delay="700" data-aos-offset="0">
+        <small>Written by <span>Anas Shahab</span>-</small>
+        <small><time>04 Jul 2021</time></small>
+      </div>
+    </div>
+
+  </a>
+
+  
+
   <a href="/support_site//start/blog/2021/06/12/question-4.html" class="list-item container" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100">
 
 
@@ -127,9 +209,11 @@
 
     <div class="flex-grow-1">
       <div class="" data-aos="fade-up" data-aos-delay="600" data-aos-offset="0">
-        <h2 class="list-post-title">
-        OpenStack
-        </h2>
+
+          <h2 class="list-post-title">
+            OpenStack  <sub><i> | secondary</i></sub>
+          </h2>
+    
       </div>
 
       <div class="" data-aos="fade-up" data-aos-delay="700" data-aos-offset="0">
@@ -143,7 +227,9 @@
     </div>
 
   </a>
+
   
+
   <a href="/support_site//start/blog/2021/06/12/question-3.html" class="list-item container" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100">
 
 
@@ -153,9 +239,11 @@
 
     <div class="flex-grow-1">
       <div class="" data-aos="fade-up" data-aos-delay="600" data-aos-offset="0">
-        <h2 class="list-post-title">
-        Kubernetes
-        </h2>
+
+          <h2 class="list-post-title">
+            Kubernetes  <sub><i> | secondary</i></sub>
+          </h2>
+    
       </div>
 
       <div class="" data-aos="fade-up" data-aos-delay="700" data-aos-offset="0">
@@ -169,7 +257,9 @@
     </div>
 
   </a>
+
   
+
   <a href="/support_site//start/blog/2021/06/12/question-2.html" class="list-item container" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100">
 
 
@@ -179,9 +269,11 @@
 
     <div class="flex-grow-1">
       <div class="" data-aos="fade-up" data-aos-delay="600" data-aos-offset="0">
-        <h2 class="list-post-title">
-        Juju
-        </h2>
+
+          <h2 class="list-post-title">
+            Juju  <sub><i> | primary</i></sub>
+          </h2>
+    
       </div>
 
       <div class="" data-aos="fade-up" data-aos-delay="700" data-aos-offset="0">
@@ -195,8 +287,10 @@
     </div>
 
   </a>
+
   
-  <a href="/support_site//start/blog/2021/06/12/question-1.html" class="list-item container" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100">
+
+  <a href="/support_site//random/2021/06/12/question-1.html" class="list-item container" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100">
 
 
 <!--     <div class="list-item-icon container align-items-center justify-content-center">
@@ -205,9 +299,11 @@
 
     <div class="flex-grow-1">
       <div class="" data-aos="fade-up" data-aos-delay="600" data-aos-offset="0">
-        <h2 class="list-post-title">
-        MAAS
-        </h2>
+
+          <h2 class="list-post-title">
+            MAAS  <sub><i> | secondary</i></sub>
+          </h2>
+    
       </div>
 
       <div class="" data-aos="fade-up" data-aos-delay="700" data-aos-offset="0">
@@ -221,7 +317,9 @@
     </div>
 
   </a>
+
    
+  
 </div>
 
   </div>
@@ -232,7 +330,7 @@
   <div class="footer container column align-items-center justify-content-center">
     <div class="footer--block text-align-center">
       <div class="" data-aos="fade-up" data-aos-delay="" data-aos-offset="0">
-        <a href="/support_site//"><span>Support Page |</span> data experts</a>
+        <a href="/support_site//"><span>data experts | </span> Support Page</a>
       </div>
       <div class="by" data-aos="fade-up" data-aos-delay="200" data-aos-offset="0">
         <a href="https://github.com/gustavoquinalha/jekyll-help-center-theme" target="_blank">data experts gmbh<br>

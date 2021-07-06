@@ -1,24 +1,71 @@
 <header>
-
+  {{ '/' | absolute_url }}
+  hey
+  {{ page.url }}
   <div class="header container align-items-center justify-content-center">
     <div class="header--block size margin container column">
+
       <div class="header--block--text" data-aos="fade-up" data-aos-delay="" data-aos-offset="0">
         Advice and answers from the data experts Team
       </div>
-      <div class="container column position-search">
+
+      <div class="container align-items-center">
+
+        <div class="dropdown">
+          <button onclick="myFunction()" class="dropbtn">Sort</button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="{{ '/' | absolute_url }}post_sort_primary.html">Primary</a>
+            <a href="{{ '/' | absolute_url }}post_sort_secondary.html">Secondary</a>
+          </div>
+        </div>
+
+        <!-- <div class="container column position-search"> -->
+        
         <div class="header--block--input" data-aos="fade-up" data-aos-delay="" data-aos-offset="0" id="search-container">
+
+       
+
           <div class="header--block--input--icon">
             <!-- <img src="{{ site.baseurl }}/assets/img/icons/search-input.svg" width="30" alt=""> -->
             <span class="feather-icon icon-search"></span>
           </div>
+
           <input class="input-search" type="text" name="" value="" placeholder="Search for posts..." id="search-input">
+
         </div>
+
         <div class="header--block--result">
           <ul id="results-container"></ul>
         </div>
+
+        <!-- </div> -->
+  
       </div>
+      
     </div>
   </div>
 
+
+  <script>
+    /* When the user clicks on the button, 
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+    
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+    </script>
 
 </header>
