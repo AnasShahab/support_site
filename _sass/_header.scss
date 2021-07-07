@@ -52,10 +52,11 @@
     .show {display: block;}
     
     .cancel-btn{
-      margin-left: 2px;
+      /* margin-left: 2px; */
+      margin-right: 10px;
       background-color: red;
       color: white;
-      padding: 12px;
+      padding: 16px;
       font-size: 12px;
       cursor: pointer;
       border: none;

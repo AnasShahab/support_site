@@ -40,67 +40,61 @@
 <body>
   <div class="">
     <div class="menu">
-    <div class="size margin menu--content container align-items-center justify-content-between">
-  
+  <div class="size margin menu--content container align-items-center justify-content-between">
 
     
-        <a href="http://localhost:4000/support_site/" data-aos="fade-right" data-aos-delay="" data-aos-offset="0">
-            <div class="container align-items-baseline back-to-site">
-              <div class="">
-                <span class="feather-icon icon-external-link"></span>
-              </div>
-              <div class="back-to-site-text">
-                Home
-              </div>
-            </div>
-          </a>
 
-      <div class="" data-aos="fade-up" data-aos-delay="" data-aos-offset="0">
-        <h1>Support Page</h1>
+    <a href="http://localhost:4000/support_site/" data-aos="fade-right" data-aos-delay="" data-aos-offset="0">
+      <div class="container align-items-baseline back-to-site">
+        <div class="">
+          <span class="feather-icon icon-external-link"></span>
+        </div>
+        <div class="back-to-site-text">
+          Home
+        </div>
       </div>
+    </a>
 
-      <div class="" data-aos="fade-left" data-aos-delay="" data-aos-offset="0">
-        <a href="">Subscribe</a>
-      </div>
-  <!--     <nav class="masthead-nav">
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-      </nav> -->
+    <div class="" data-aos="fade-up" data-aos-delay="" data-aos-offset="0">
+      <h1>Support Page</h1>
     </div>
+
+    <div class="" data-aos="fade-left" data-aos-delay="" data-aos-offset="0">
+      <a href="">Subscribe</a>
+    </div>
+
+    
+
   </div>
-  
+</div>
+
 
     <div class="bg-header">
     <header>
 
   <div class="header container align-items-center justify-content-center">
     <div class="header--block size margin container column">
+
+
+    
+
       <div class="header--block--text" data-aos="fade-up" data-aos-delay="" data-aos-offset="0">
         Our Events 
       </div>
-      <div class="header--block--text" data-aos="fade-up" data-aos-delay="" data-aos-offset="0">
-        Here you can find all the past, present and future events
-      </div>
-      <div class="container column position-search">
+
+      <div class="container align-items-center" data-aos="fade-up" data-aos-delay="" data-aos-offset="0">
+
+        <div class="dropdown">
+          <button onclick="myFunction()" class="dropbtn">Sort</button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="http://localhost:4000/support_site/post_sort_primary.html">Past</a>
+            <a href="http://localhost:4000/support_site/post_sort_secondary.html">Present</a>
+            <a href="http://localhost:4000/support_site/post_sort_secondary.html">Future</a>
+          </div>
+        </div>
+
+        <!-- <div class="container column position-search"> -->
+        
         <div class="header--block--input" data-aos="fade-up" data-aos-delay="" data-aos-offset="0" id="search-container">
           <div class="header--block--input--icon">
             <!-- <img src="/support_site//assets/img/icons/search-input.svg" width="30" alt=""> -->
@@ -108,15 +102,48 @@
           </div>
           <input class="input-search" type="text" name="" value="" placeholder="Search for events..." id="search-input">
         </div>
+
         <div class="header--block--result">
           <ul id="results-container"></ul>
         </div>
+
+        <!-- </div> -->
+  
+
       </div>
+
+      
+
     </div>
   </div>
+<!--    -->
 
-
+  <script>
+    /* When the user clicks on the button, 
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+     /*  var x=parseInt("3");
+      x+=1;
+      window.alert(x); */
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+    
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+    </script>
 </header>
+
 
   </div>
 
@@ -125,10 +152,123 @@
       <div class="">
     
     
+    
+    <a href="/support_site/" class="list-item container" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100">
+
+
+      <!--     <div class="list-item-icon container align-items-center justify-content-center">
+            <span class="feather-icon icon-" data-aos="fade-right" data-aos-offset="0" data-aos-delay="500"></span>
+          </div> -->
+      
+          <div class="flex-grow-1">
+            <div class="" data-aos="fade-up" data-aos-delay="600" data-aos-offset="0">
+      
+                <h2 class="list-post-title">
+                  Some present event  <sub><i> | present</i></sub>
+                </h2>
+          
+            </div>
+      
+            <div class="" data-aos="fade-up" data-aos-delay="700" data-aos-offset="0">
+              <span class="list-post-description">MAAS provides self service, remote installation of Ubuntu, Windows, etc on real servers that turn the data center into a bare metal setup. To allows new machines to be provisioned. In other words, it is a way of quickly installing OS like an Ubuntu server in many computers.</span>
+            </div>
+      
+            <div class="list-post-written" data-aos="fade-up" data-aos-delay="700" data-aos-offset="0">
+              <small>Written by <span>Anas Shahab</span>-</small>
+              <small><time>22 Jun 2021</time></small>
+            </div>
+          </div>
+      
+        </a>
+    
+    <a href="/support_site/" class="list-item container" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100">
+
+
+      <!--     <div class="list-item-icon container align-items-center justify-content-center">
+            <span class="feather-icon icon-" data-aos="fade-right" data-aos-offset="0" data-aos-delay="500"></span>
+          </div> -->
+      
+          <div class="flex-grow-1">
+            <div class="" data-aos="fade-up" data-aos-delay="600" data-aos-offset="0">
+      
+                <h2 class="list-post-title">
+                  Some past event 2  <sub><i> | past</i></sub>
+                </h2>
+          
+            </div>
+      
+            <div class="" data-aos="fade-up" data-aos-delay="700" data-aos-offset="0">
+              <span class="list-post-description">MAAS provides self service, remote installation of Ubuntu, Windows, etc on real servers that turn the data center into a bare metal setup. To allows new machines to be provisioned. In other words, it is a way of quickly installing OS like an Ubuntu server in many computers.</span>
+            </div>
+      
+            <div class="list-post-written" data-aos="fade-up" data-aos-delay="700" data-aos-offset="0">
+              <small>Written by <span>Anas Shahab</span>-</small>
+              <small><time>22 Jun 2021</time></small>
+            </div>
+          </div>
+      
+        </a>
+    
+    <a href="/support_site/" class="list-item container" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100">
+
+
+      <!--     <div class="list-item-icon container align-items-center justify-content-center">
+            <span class="feather-icon icon-" data-aos="fade-right" data-aos-offset="0" data-aos-delay="500"></span>
+          </div> -->
+      
+          <div class="flex-grow-1">
+            <div class="" data-aos="fade-up" data-aos-delay="600" data-aos-offset="0">
+      
+                <h2 class="list-post-title">
+                  Some past event  <sub><i> | past</i></sub>
+                </h2>
+          
+            </div>
+      
+            <div class="" data-aos="fade-up" data-aos-delay="700" data-aos-offset="0">
+              <span class="list-post-description">MAAS provides self service, remote installation of Ubuntu, Windows, etc on real servers that turn the data center into a bare metal setup. To allows new machines to be provisioned. In other words, it is a way of quickly installing OS like an Ubuntu server in many computers.</span>
+            </div>
+      
+            <div class="list-post-written" data-aos="fade-up" data-aos-delay="700" data-aos-offset="0">
+              <small>Written by <span>Anas Shahab</span>-</small>
+              <small><time>22 Jun 2021</time></small>
+            </div>
+          </div>
+      
+        </a>
+    
+    <a href="/support_site/" class="list-item container" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100">
+
+
+      <!--     <div class="list-item-icon container align-items-center justify-content-center">
+            <span class="feather-icon icon-" data-aos="fade-right" data-aos-offset="0" data-aos-delay="500"></span>
+          </div> -->
+      
+          <div class="flex-grow-1">
+            <div class="" data-aos="fade-up" data-aos-delay="600" data-aos-offset="0">
+      
+                <h2 class="list-post-title">
+                  Future training  <sub><i> | future</i></sub>
+                </h2>
+          
+            </div>
+      
+            <div class="" data-aos="fade-up" data-aos-delay="700" data-aos-offset="0">
+              <span class="list-post-description">MAAS provides self service, remote installation of Ubuntu, Windows, etc on real servers that turn the data center into a bare metal setup. To allows new machines to be provisioned. In other words, it is a way of quickly installing OS like an Ubuntu server in many computers.</span>
+            </div>
+      
+            <div class="list-post-written" data-aos="fade-up" data-aos-delay="700" data-aos-offset="0">
+              <small>Written by <span>Anas Shahab</span>-</small>
+              <small><time>22 Jun 2021</time></small>
+            </div>
+          </div>
+      
+        </a>
      
   </div>
     </div>
   </div>
+
 
     <footer>
   <div class="footer container column align-items-center justify-content-center">

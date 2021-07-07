@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Some event"
+title: "Some present event"
 description: "MAAS provides self service, remote installation of Ubuntu, Windows, etc on real servers that turn the data center into a bare metal setup. To allows new machines to be provisioned. In other words, it is a way of quickly installing OS like an Ubuntu server in many computers."
 date:   2021-06-22 17:46:41 -0200
-categories: start blog
+category: events
+group: present
 by: 'Anas Shahab'
 icon: 'credit-card'
 questions:

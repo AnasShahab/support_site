@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "OpenStack"
-description: "OpenStack is basically an open source cloud software that provides a framework of tools for creating and managing public and private clouds. It controls large parts of computing, storage and network resources in a data center that can be managed through a dashboard."
-date:   2021-06-12 17:46:41 -0200
-categories: start blog
+title: "Future training"
+description: "MAAS provides self service, remote installation of Ubuntu, Windows, etc on real servers that turn the data center into a bare metal setup. To allows new machines to be provisioned. In other words, it is a way of quickly installing OS like an Ubuntu server in many computers."
+date:   2021-06-22 17:46:41 -0200
+category: events
+group: future
 by: 'Anas Shahab'
 icon: 'credit-card'
-group: secondary
 questions:
   - question: 'Question 1'
     answer: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'

@@ -5,8 +5,8 @@
     <description>A support page</description>
     <link>http://localhost:4000/support_site//</link>
     <atom:link href="http://localhost:4000/support_site//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 07 Jul 2021 04:12:08 +0200</pubDate>
-    <lastBuildDate>Wed, 07 Jul 2021 04:12:08 +0200</lastBuildDate>
+    <pubDate>Wed, 07 Jul 2021 17:44:31 +0200</pubDate>
+    <lastBuildDate>Wed, 07 Jul 2021 17:44:31 +0200</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
@@ -14,11 +14,63 @@
         <description>
 </description>
         <pubDate>Sun, 04 Jul 2021 21:46:41 +0200</pubDate>
-        <link>http://localhost:4000/support_site//primary/2021/07/04/question-5.html</link>
-        <guid isPermaLink="true">http://localhost:4000/support_site//primary/2021/07/04/question-5.html</guid>
+        <link>http://localhost:4000/support_site//news/2021/07/04/question-5.html</link>
+        <guid isPermaLink="true">http://localhost:4000/support_site//news/2021/07/04/question-5.html</guid>
         
         
-        <category>primary</category>
+        <category>news</category>
+        
+      </item>
+    
+      <item>
+        <title>Some present event</title>
+        <description>
+</description>
+        <pubDate>Tue, 22 Jun 2021 21:46:41 +0200</pubDate>
+        <link>http://localhost:4000/support_site//events/2021/06/22/presentevent-1.html</link>
+        <guid isPermaLink="true">http://localhost:4000/support_site//events/2021/06/22/presentevent-1.html</guid>
+        
+        
+        <category>events</category>
+        
+      </item>
+    
+      <item>
+        <title>Some past event 2</title>
+        <description>
+</description>
+        <pubDate>Tue, 22 Jun 2021 21:46:41 +0200</pubDate>
+        <link>http://localhost:4000/support_site//events/2021/06/22/pastevent-2.html</link>
+        <guid isPermaLink="true">http://localhost:4000/support_site//events/2021/06/22/pastevent-2.html</guid>
+        
+        
+        <category>events</category>
+        
+      </item>
+    
+      <item>
+        <title>Some past event</title>
+        <description>
+</description>
+        <pubDate>Tue, 22 Jun 2021 21:46:41 +0200</pubDate>
+        <link>http://localhost:4000/support_site//events/2021/06/22/pastevent-1.html</link>
+        <guid isPermaLink="true">http://localhost:4000/support_site//events/2021/06/22/pastevent-1.html</guid>
+        
+        
+        <category>events</category>
+        
+      </item>
+    
+      <item>
+        <title>Future training</title>
+        <description>
+</description>
+        <pubDate>Tue, 22 Jun 2021 21:46:41 +0200</pubDate>
+        <link>http://localhost:4000/support_site//events/2021/06/22/futureevent-1.html</link>
+        <guid isPermaLink="true">http://localhost:4000/support_site//events/2021/06/22/futureevent-1.html</guid>
+        
+        
+        <category>events</category>
         
       </item>
     
@@ -27,13 +79,11 @@
         <description>
 </description>
         <pubDate>Sat, 12 Jun 2021 21:46:41 +0200</pubDate>
-        <link>http://localhost:4000/support_site//start/blog/2021/06/12/question-4.html</link>
-        <guid isPermaLink="true">http://localhost:4000/support_site//start/blog/2021/06/12/question-4.html</guid>
+        <link>http://localhost:4000/support_site//news/2021/06/12/question-4.html</link>
+        <guid isPermaLink="true">http://localhost:4000/support_site//news/2021/06/12/question-4.html</guid>
         
         
-        <category>start</category>
-        
-        <category>blog</category>
+        <category>news</category>
         
       </item>
     
@@ -42,13 +92,11 @@
         <description>
 </description>
         <pubDate>Sat, 12 Jun 2021 21:46:41 +0200</pubDate>
-        <link>http://localhost:4000/support_site//start/blog/2021/06/12/question-3.html</link>
-        <guid isPermaLink="true">http://localhost:4000/support_site//start/blog/2021/06/12/question-3.html</guid>
+        <link>http://localhost:4000/support_site//news/2021/06/12/question-3.html</link>
+        <guid isPermaLink="true">http://localhost:4000/support_site//news/2021/06/12/question-3.html</guid>
         
         
-        <category>start</category>
-        
-        <category>blog</category>
+        <category>news</category>
         
       </item>
     
@@ -57,13 +105,11 @@
         <description>
 </description>
         <pubDate>Sat, 12 Jun 2021 21:46:41 +0200</pubDate>
-        <link>http://localhost:4000/support_site//start/blog/2021/06/12/question-2.html</link>
-        <guid isPermaLink="true">http://localhost:4000/support_site//start/blog/2021/06/12/question-2.html</guid>
+        <link>http://localhost:4000/support_site//news/2021/06/12/question-2.html</link>
+        <guid isPermaLink="true">http://localhost:4000/support_site//news/2021/06/12/question-2.html</guid>
         
         
-        <category>start</category>
-        
-        <category>blog</category>
+        <category>news</category>
         
       </item>
     
@@ -72,11 +118,11 @@
         <description>
 </description>
         <pubDate>Sat, 12 Jun 2021 21:46:41 +0200</pubDate>
-        <link>http://localhost:4000/support_site//random/2021/06/12/question-1.html</link>
-        <guid isPermaLink="true">http://localhost:4000/support_site//random/2021/06/12/question-1.html</guid>
+        <link>http://localhost:4000/support_site//news/2021/06/12/question-1.html</link>
+        <guid isPermaLink="true">http://localhost:4000/support_site//news/2021/06/12/question-1.html</guid>
         
         
-        <category>random</category>
+        <category>news</category>
         
       </item>
     

@@ -53,7 +53,7 @@ img { max-width: 100%; }
 .header .header--block .dropdown-content a { color: black; padding: 4px 14px; text-decoration: none; display: block; }
 .header .header--block .dropdown a:hover { background-color: darkgreen; }
 .header .header--block .show { display: block; }
-.header .header--block .cancel-btn { margin-left: 2px; background-color: red; color: white; padding: 12px; font-size: 12px; cursor: pointer; border: none; }
+.header .header--block .cancel-btn { /* margin-left: 2px; */ margin-right: 10px; background-color: red; color: white; padding: 16px; font-size: 12px; cursor: pointer; border: none; }
 .header .header--block .header--block--input { display: flex; align-items: center; background: #fff; margin-top: 20px; margin-bottom: 20px; border-radius: 4px; overflow: hidden; width: 100%; opacity: 0.5; transition: 0.3s; }
 .header .header--block .header--block--input:focus-within { opacity: 1; box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1); }
 .header .header--block .header--block--input:focus-within .header--block--input--icon { opacity: 1; }

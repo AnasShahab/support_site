@@ -1,6 +1,9 @@
 <div class="menu">
   <div class="size margin menu--content container align-items-center justify-content-between">
 
+    {% if page.url  != "/events.html" %}
+    
+
     <div class="" data-aos="fade-right" data-aos-delay="data experts" data-aos-offset="0">
       <a href="https://www.data-experts.de">data experts</a>
     </div>
@@ -29,5 +32,29 @@
       {% endif %}
       {% endfor %}
     </nav> -->
+
+    {% else %}
+
+    <a href="{{ '/' | absolute_url }}" data-aos="fade-right" data-aos-delay="" data-aos-offset="0">
+      <div class="container align-items-baseline back-to-site">
+        <div class="">
+          <span class="feather-icon icon-external-link"></span>
+        </div>
+        <div class="back-to-site-text">
+          Home
+        </div>
+      </div>
+    </a>
+
+    <div class="" data-aos="fade-up" data-aos-delay="" data-aos-offset="0">
+      <h1>{{ site.title }}</h1>
+    </div>
+
+    <div class="" data-aos="fade-left" data-aos-delay="" data-aos-offset="0">
+      <a href="">Subscribe</a>
+    </div>
+
+    {% endif %}
+
   </div>
 </div>
