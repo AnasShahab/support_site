@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>CSS workshop</title>
+  <title></title>
 
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/the-grid-flexbox@2.0.1/css/the-grid.min.css">
@@ -102,121 +102,134 @@
 </div>
 
 
+    <div class="bg-header">
+  <header>
+
+  <div class="header container align-items-center justify-content-center">
+    <div class="header--block size margin container column">
+
+
     
 
-
-
-<!-- breadcrumbs -->
-<div class="size margin" data-aos="fade-right" data-aos-delay="100" data-aos-offset="0">
-  
-
-
-
-
-
-<div class="container wrap breadcrumbs">
-  <a href="http://localhost:4000/support_site/">Home</a>
-  
-  <span class="prompt margin-left-10 margin-right-10">></span>
-  
-  
-  <a href="http://localhost:4000/support_site/_posts">_posts</a>
-  
-  
-  <span class="prompt margin-left-10 margin-right-10">></span>
-  
-  
-  CSS workshop
-  
-  
-</div>
-
-</div>
-<!-- breadcrumbs -->
-
-<div class="size margin min-height">
-  <article> 
-    <!-- titles -->
-    <h1 class="post-title" data-aos="fade-up" data-aos-delay="200" data-aos-offset="0">CSS workshop</h1>
-    <div class="post-date" data-aos="fade-left" data-aos-delay="300" data-aos-offset="0">
-      <time>22 Jun 2021</time>
-      <span class="reading-time" title="Estimated read time"> - 1 minute to read</span>
-    </div>
-    <!-- titles -->
-
-    <!-- posts -->
-    <div class="margin-top-20 margin-bottom-50">
-      
-      <div class="list-item-2 container wrap-reverse align-items-end justify-content-center" data-aos="fade-up" data-aos-delay="0" data-aos-offset="0">
-        
-        <div class="list-item-2-img flex-basis-300 flex-grow-1" data-aos="fade-up" data-aos-delay="300" data-aos-offset="0">
-          <img src="/support_site//assets/img/2.gif" width="100%" alt="">
-        </div>
-        
-        <div class="flex-basis-400 flex-grow-5">
-          <div class="" data-aos="fade-up" data-aos-delay="300" data-aos-offset="0">
-            <h2 class="list-post-title">
-            What will be taught?
-            </h2>
-          </div>
-          <div class="" data-aos="fade-up" data-aos-delay="300" data-aos-offset="0">
-            <span class="list-post-description">
-              Yes completely free!.
-            </span>
-          </div>
-        </div>
-      </div>
-      
-      <div class="list-item-2 container wrap-reverse align-items-end justify-content-center" data-aos="fade-up" data-aos-delay="0" data-aos-offset="0">
-        
-        <div class="list-item-2-img flex-basis-300 flex-grow-1" data-aos="fade-up" data-aos-delay="300" data-aos-offset="0">
-          <img src="/support_site//assets/img/3.gif" width="100%" alt="">
-        </div>
-        
-        <div class="flex-basis-400 flex-grow-5">
-          <div class="" data-aos="fade-up" data-aos-delay="300" data-aos-offset="0">
-            <h2 class="list-post-title">
-            Where can I register?
-            </h2>
-          </div>
-          <div class="" data-aos="fade-up" data-aos-delay="300" data-aos-offset="0">
-            <span class="list-post-description">
-              On our website.
-            </span>
-          </div>
-        </div>
-      </div>
-      
-      <div class="list-item-2 container wrap-reverse align-items-end justify-content-center" data-aos="fade-up" data-aos-delay="0" data-aos-offset="0">
-        
-        <div class="list-item-2-img flex-basis-300 flex-grow-1" data-aos="fade-up" data-aos-delay="300" data-aos-offset="0">
-          <img src="/support_site//assets/img/4.gif" width="100%" alt="">
-        </div>
-        
-        <div class="flex-basis-400 flex-grow-5">
-          <div class="" data-aos="fade-up" data-aos-delay="300" data-aos-offset="0">
-            <h2 class="list-post-title">
-            Is there a deadline?
-            </h2>
-          </div>
-          <div class="" data-aos="fade-up" data-aos-delay="300" data-aos-offset="0">
-            <span class="list-post-description">
-              Yes, will be announced later.
-            </span>
-          </div>
-        </div>
-      </div>
-      
-    </div>
-    <!-- posts -->
-
-    <!-- content -->
     
 
+      <div class="header--block--text" data-aos="fade-up" data-aos-delay="" data-aos-offset="0">
+        Our Events 
+      </div>
 
-    <!-- content -->
-  </article>
+      <div class="container align-items-center" data-aos="fade-up" data-aos-delay="" data-aos-offset="0">
+
+        
+
+        <a href="http://localhost:4000/support_site/events" data-aos="fade-up" data-aos-delay="" data-aos-offset="0"><button class="cancel-btn">Cancel</button></a>
+
+        
+        <!-- <div class="container column position-search"> -->
+        
+        <div class="header--block--input" data-aos="fade-up" data-aos-delay="" data-aos-offset="0" id="search-container">
+          <div class="header--block--input--icon">
+            <!-- <img src="/support_site//assets/img/icons/search-input.svg" width="30" alt=""> -->
+            <span class="feather-icon icon-search"></span>
+          </div>
+          <input class="input-search" type="text" name="" value="" placeholder="Search for events..." id="search-input">
+        </div>
+
+        <div class="header--block--result">
+          <ul id="results-container"></ul>
+        </div>
+
+        <!-- </div> -->
+  
+
+      </div>
+
+      
+
+    </div>
+  </div>
+<!--    -->
+
+  <script>
+    /* When the user clicks on the button, 
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+     /*  var x=parseInt("3");
+      x+=1;
+      window.alert(x); */
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+    
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+    </script>
+</header>
+
+
 </div>
+
+<div class="content-post">
+  <div class="size margin">
+    <div class="">
+    
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+   
+    <a href="/support_site//events/2021/06/22/futureevent-1.html" class="list-item container" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100">
+  
+  
+  <!--     <div class="list-item-icon container align-items-center justify-content-center">
+        <span class="feather-icon icon-" data-aos="fade-right" data-aos-offset="0" data-aos-delay="500"></span>
+      </div> -->
+  
+      <div class="flex-grow-1">
+        <div class="" data-aos="fade-up" data-aos-delay="600" data-aos-offset="0">
+          <h2 class="list-post-title">
+            HTML Training  <sub><i> | future</i></sub>
+          </h2>
+        </div>
+  
+        <div class="" data-aos="fade-up" data-aos-delay="700" data-aos-offset="0">
+          <span class="list-post-description">HTML tutorial will be given next year for helping those in need.</span>
+        </div>
+  
+        <div class="list-post-written" data-aos="fade-up" data-aos-delay="700" data-aos-offset="0">
+          <small>Written by <span>Anas Shahab</span>-</small>
+          <small><time>22 Jun 2021</time></small>
+        </div>
+      </div>
+  
+    </a>
+    
+     
+    
+  
+  </div>
+  
+  </div>
+</div>
+
 
     <footer>
   <div class="footer container column align-items-center justify-content-center">

@@ -1,23 +1,23 @@
 ---
 layout: post
-title: "Future training"
-description: "MAAS provides self service, remote installation of Ubuntu, Windows, etc on real servers that turn the data center into a bare metal setup. To allows new machines to be provisioned. In other words, it is a way of quickly installing OS like an Ubuntu server in many computers."
+title: "HTML Training"
+description: "HTML tutorial will be given next year for helping those in need."
 date:   2021-06-22 17:46:41 -0200
 category: events
 group: future
 by: 'Anas Shahab'
 icon: 'credit-card'
 questions:
-  - question: 'Question 1'
-    answer: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+  - question: 'What will be taught?'
+    answer: 'HTML basics along with projects'
     image: "1.gif"
-  - question: 'Question 2'
-    answer: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+  - question: 'Is  it free?'
+    answer: 'Yes completely free!.'
     image: "2.gif"
-  - question: 'Question 3'
-    answer: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+  - question: 'Where can I register?'
+    answer: 'On our website.'
     image: "3.gif"
-  - question: 'Question 4'
-    answer: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+  - question: 'Is there a deadline?'
+    answer: 'Yes, will be announced later.'
     image: "4.gif"
 ---

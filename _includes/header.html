@@ -4,7 +4,7 @@
     <div class="header--block size margin container column">
 
 
-    {% if page.url  != "/events.html" %}
+    {% unless page.url contains "event" %}
 
 
       <div class="header--block--text" data-aos="fade-up" data-aos-delay="" data-aos-offset="0">
@@ -47,8 +47,9 @@
   
       </div>
 
+    {% endunless %}
 
-    {% else %}
+    {% if page.url contains "event" %}
 
       <div class="header--block--text" data-aos="fade-up" data-aos-delay="" data-aos-offset="0">
         Our Events 
@@ -56,15 +57,23 @@
 
       <div class="container align-items-center" data-aos="fade-up" data-aos-delay="" data-aos-offset="0">
 
+        {% if page.url  != "/events.html" %}
+
+        <a href="{{ '/' | absolute_url }}events" data-aos="fade-up" data-aos-delay="" data-aos-offset="0"><button class="cancel-btn">Cancel</button></a>
+
+        {% else %}
+
         <div class="dropdown">
           <button onclick="myFunction()" class="dropbtn">Sort</button>
           <div id="myDropdown" class="dropdown-content">
-            <a href="{{ '/' | absolute_url }}post_sort_primary.html">Past</a>
-            <a href="{{ '/' | absolute_url }}post_sort_secondary.html">Present</a>
-            <a href="{{ '/' | absolute_url }}post_sort_secondary.html">Future</a>
+            <a href="{{ '/' | absolute_url }}event_sort_past.html">Past</a>
+            <a href="{{ '/' | absolute_url }}event_sort_present.html">Present</a>
+            <a href="{{ '/' | absolute_url }}event_sort_future.html">Future</a>
           </div>
         </div>
 
+
+        {% endif %}
         <!-- <div class="container column position-search"> -->
         
         <div class="header--block--input" data-aos="fade-up" data-aos-delay="" data-aos-offset="0" id="search-container">

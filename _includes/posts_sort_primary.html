@@ -1,9 +1,9 @@
 <div class="">
-    {% if site.posts.size == 0 %}
+    {% if site.categories.news.size == 0 %}
     <h2>No post found</h2>
     {% else %}
     
-    {% for post in site.posts %}
+    {% for post in site.categories.news %}
   
     {% if post.group == "primary" %}
     <a href="{{ site.baseurl }}{{ post.url }}" class="list-item container" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100">
