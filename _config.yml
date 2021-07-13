@@ -8,7 +8,7 @@
 # Site settings
 title: "Support Page"
 email: office@data-experts.de
-description: "A support page"
+description: "A support page for data experts where you can get updates about the news and events"
 domain: anasshahab.github.io
 baseurl: /support_site/
 url: https://anasshahab.github.io
