@@ -559,6 +559,8 @@ img { max-width: 100%; }
 
 .content-post { min-height: calc(100vh - 480px); background: #f3f5f7; padding-top: 30px; padding-bottom: 30px; }
 
+.post-date { font-size: 22px; }
+
 .list-item { box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.03); border: 1px solid #C1C1C1; margin-bottom: 20px; padding: 20px; box-sizing: border-box; border-radius: 4px; transition: .3s; overflow: hidden; cursor: pointer; }
 .list-item:last-child { margin-bottom: 0px; }
 .list-item:hover { border-color: #006400; }
