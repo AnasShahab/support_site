@@ -6,7 +6,7 @@
       "date"        : "2021-07-04 21:46:41 +0200",
       "categories"  : "news",
       "by"          : "Anas Shahab",
-      "url"         : "/support_site//news/2021/07/04/question-5.html",
+      "url"         : "/support_site/news/2021/07/04/question-5.html",
       "icon"        : "credit-card",
       "questions"   : [{"question":"Question 1","answer":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.","image":"1.gif"},{"question":"Question 2","answer":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.","image":"2.gif"},{"question":"Question 3","answer":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.","image":"3.gif"},{"question":"Question 4","answer":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.","image":"4.gif"}]
 
@@ -18,7 +18,7 @@
       "date"        : "2021-06-22 21:46:41 +0200",
       "categories"  : "events",
       "by"          : "Anas Shahab",
-      "url"         : "/support_site//events/2021/06/22/presentevent-1.html",
+      "url"         : "/support_site/events/2021/06/22/presentevent-1.html",
       "icon"        : "credit-card",
       "questions"   : [{"question":"What is being taught?","answer":"PHP basics along with projects","image":"1.gif"},{"question":"Is  it free?","answer":"Yes completely free!.","image":"2.gif"},{"question":"Where can I register?","answer":"On our website.","image":"3.gif"},{"question":"Is there a deadline?","answer":"Yes, will be announced later.","image":"4.gif"}]
 
@@ -30,7 +30,7 @@
       "date"        : "2021-06-22 21:46:41 +0200",
       "categories"  : "events",
       "by"          : "Anas Shahab",
-      "url"         : "/support_site//events/2021/06/22/pastevent-2.html",
+      "url"         : "/support_site/events/2021/06/22/pastevent-2.html",
       "icon"        : "credit-card",
       "questions"   : [{"question":"What was be taught?","answer":"Cloud networking basics along with projects","image":"1.gif"},{"question":"Is  it free?","answer":"Yes completely free!.","image":"2.gif"},{"question":"Where can I register?","answer":"On our website.","image":"3.gif"},{"question":"Is there a deadline?","answer":"Yes, will be announced later.","image":"4.gif"}]
 
@@ -42,7 +42,7 @@
       "date"        : "2021-06-22 21:46:41 +0200",
       "categories"  : "events",
       "by"          : "Anas Shahab",
-      "url"         : "/support_site//events/2021/06/22/pastevent-1.html",
+      "url"         : "/support_site/events/2021/06/22/pastevent-1.html",
       "icon"        : "credit-card",
       "questions"   : [{"question":"What will be taught?","answer":"Yes completely free!.","image":"2.gif"},{"question":"Where can I register?","answer":"On our website.","image":"3.gif"},{"question":"Is there a deadline?","answer":"Yes, will be announced later.","image":"4.gif"}]
 
@@ -54,7 +54,7 @@
       "date"        : "2021-06-22 21:46:41 +0200",
       "categories"  : "events",
       "by"          : "Anas Shahab",
-      "url"         : "/support_site//events/2021/06/22/futureevent-1.html",
+      "url"         : "/support_site/events/2021/06/22/futureevent-1.html",
       "icon"        : "credit-card",
       "questions"   : [{"question":"What will be taught?","answer":"HTML basics along with projects","image":"1.gif"},{"question":"Is  it free?","answer":"Yes completely free!.","image":"2.gif"},{"question":"Where can I register?","answer":"On our website.","image":"3.gif"},{"question":"Is there a deadline?","answer":"Yes, will be announced later.","image":"4.gif"}]
 
@@ -66,7 +66,7 @@
       "date"        : "2021-06-12 21:46:41 +0200",
       "categories"  : "news",
       "by"          : "Anas Shahab",
-      "url"         : "/support_site//news/2021/06/12/question-4.html",
+      "url"         : "/support_site/news/2021/06/12/question-4.html",
       "icon"        : "credit-card",
       "questions"   : [{"question":"Question 1","answer":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.","image":"1.gif"},{"question":"Question 2","answer":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.","image":"2.gif"},{"question":"Question 3","answer":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.","image":"3.gif"},{"question":"Question 4","answer":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.","image":"4.gif"}]
 
@@ -78,7 +78,7 @@
       "date"        : "2021-06-12 21:46:41 +0200",
       "categories"  : "news",
       "by"          : "Anas Shahab",
-      "url"         : "/support_site//news/2021/06/12/question-3.html",
+      "url"         : "/support_site/news/2021/06/12/question-3.html",
       "icon"        : "help-circle",
       "questions"   : [{"question":"Question 1","answer":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."},{"question":"Question 2","answer":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."},{"question":"Question 3","answer":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}]
 
@@ -90,7 +90,7 @@
       "date"        : "2021-06-12 21:46:41 +0200",
       "categories"  : "news",
       "by"          : "Anas Shahab",
-      "url"         : "/support_site//news/2021/06/12/question-2.html",
+      "url"         : "/support_site/news/2021/06/12/question-2.html",
       "icon"        : "loader",
       "questions"   : [{"question":"Question 1","answer":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.","image":"4.gif"},{"question":"Question 2","answer":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."},{"question":"Question 3","answer":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}]
 
@@ -102,7 +102,7 @@
       "date"        : "2021-06-12 21:46:41 +0200",
       "categories"  : "news",
       "by"          : "Anas Shahab",
-      "url"         : "/support_site//news/2021/06/12/question-1.html",
+      "url"         : "/support_site/news/2021/06/12/question-1.html",
       "icon"        : "credit-card",
       "questions"   : [{"question":"Question 1","answer":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.","image":"1.gif"},{"question":"Question 2","answer":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.","image":"2.gif"},{"question":"Question 3","answer":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.","image":"3.gif"},{"question":"Question 4","answer":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.","image":"4.gif"}]
 
