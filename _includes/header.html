@@ -19,7 +19,7 @@
         {% else %}
 
         <div class="dropdown">
-          <button onclick="myFunction()" class="dropbtn">Sort</button>
+          <button onclick="myFunction()" class="dropbtn">&#9664;&nbsp;&nbsp;Filter</button>
           <div id="myDropdown" class="dropdown-content">
             <a href="{{ '/' | absolute_url }}event_sort_past.html">Past</a>
             <a href="{{ '/' | absolute_url }}event_sort_present.html">Present</a>
@@ -66,8 +66,9 @@
       {% else %}
 
         <div class="dropdown">
-          <button onclick="myFunction()" class="dropbtn">Sort</button>
+          <button onclick="myFunction()" class="dropbtn">&#9664;&nbsp;&nbsp;Filter</button>
           <div id="myDropdown" class="dropdown-content">
+            
             <a href="{{ '/' | absolute_url }}post_sort_primary.html">Primary</a>
             <a href="{{ '/' | absolute_url }}post_sort_secondary.html">Secondary</a>
           </div>
