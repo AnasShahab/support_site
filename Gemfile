@@ -10,5 +10,5 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem 'jekyll-livereload'
   gem 'jekyll-feed'
-  gem 'jekyll-stickyposts'
+  #gem 'jekyll-stickyposts'
  end

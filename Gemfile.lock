@@ -165,8 +165,6 @@ GEM
       jekyll (>= 3.8, < 5.0)
     jekyll-sitemap (1.4.0)
       jekyll (>= 3.7, < 5.0)
-    jekyll-stickyposts (1.2.2)
-      jekyll (~> 3.0)
     jekyll-swiss (1.0.0)
     jekyll-theme-architect (0.1.1)
       jekyll (~> 3.5)
@@ -310,7 +308,6 @@ DEPENDENCIES
   jekyll-paginate
   jekyll-seo-tag
   jekyll-sitemap
-  jekyll-stickyposts
   support-for
 
 BUNDLED WITH

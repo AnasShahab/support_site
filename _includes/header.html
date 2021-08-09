@@ -18,7 +18,7 @@
 
         {% else %}
 
-        <div class="dropdown">
+<!--         <div class="dropdown">
           <button onclick="myFunction()" class="dropbtn">&#9664;&nbsp;&nbsp;Filter</button>
           <div id="myDropdown" class="dropdown-content">
             <a href="{{ '/' | absolute_url }}event_sort_past.html">Past</a>
@@ -26,6 +26,12 @@
             <a href="{{ '/' | absolute_url }}event_sort_future.html">Future</a>
           </div>
         </div>
+ -->
+
+
+        <a href="{{ '/' | absolute_url }}event_sort_past.html"><button class="dropbtn">Past</button></a>
+        <a href="{{ '/' | absolute_url }}event_sort_present.html"><button class="dropbtn">Present</button></a>
+        <a href="{{ '/' | absolute_url }}event_sort_future.html"><button class="dropbtn">Future</button></a>
 
 
         {% endif %}
@@ -73,14 +79,20 @@
 
       {% else %}
 
-        <div class="dropdown">
+<!--         <div class="dropdown">
           <button onclick="myFunction()" class="dropbtn">&#9664;&nbsp;&nbsp;Filter</button>
           <div id="myDropdown" class="dropdown-content">
             
             <a href="{{ '/' | absolute_url }}post_sort_primary.html">Primary</a>
             <a href="{{ '/' | absolute_url }}post_sort_secondary.html">Secondary</a>
           </div>
-        </div>
+        </div> -->
+
+
+        <a href="{{ '/' | absolute_url }}post_sort_primary.html"><button class="dropbtn">Primary</button></a>
+        <a href="{{ '/' | absolute_url }}post_sort_secondary.html"><button class="dropbtn">Secondary</button></a>
+
+
 
       {% endif %}
 
