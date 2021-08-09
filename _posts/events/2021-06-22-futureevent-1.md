@@ -7,6 +7,7 @@ category: events
 group: future
 by: 'Anas Shahab'
 icon: 'credit-card'
+tags: pinned
 questions:
   - question: 'What will be taught?'
     answer: 'HTML basics along with projects'
