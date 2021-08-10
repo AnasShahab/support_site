@@ -2,8 +2,11 @@
     {% if site.categories.news.size == 0 %}
     <h2>No post found</h2>
     {% else %}
-    
+    <h2>Secondary Posts</h2>
     {% for post in site.categories.news %}
+
+
+
   
     {% if post.group == "secondary" %}
    

@@ -2,78 +2,149 @@
     {% if site.categories.events.size == 0 %}
     <h2>No event found</h2>
     {% else %}
+
+ 
+      <h3>Present Events Happening Today</h3> 
+         
+
+      {% for event in site.categories.events %}
+
+     
+     <div present-date="{{ event.date | date: '%Y-%m-%d' }}" class="list-item container">
+     
     
-    {% for event in site.categories.events %}
+       <a href="{{ site.baseurl }}{{ event.url }}" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100">
 
-      {% if event.tags contains 'pinned' %}
-    
-    <a href="{{ site.baseurl }}{{ event.url }}" class="list-item container" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100">
+  
+           <div class="flex-grow-1">
+             <div class="" data-aos="fade-up" data-aos-delay="600" data-aos-offset="0">
+       
+                 <h2 class="list-post-title">
+                   {{ event.title }}  <sub><i> | {{ event.group }}</i></sub>
+                 </h2>
+           
+             </div>
+     
+             <div class="list-post-written" data-aos="fade-up" data-aos-delay="700" data-aos-offset="0">
+               <small>Organized by <span>{{ event.by }}</span>-</small>
+               <small><time>{{ event.date | date_to_string }}</time></small>
+             </div>
+       
+             <div class="" data-aos="fade-up" data-aos-delay="700" data-aos-offset="0">
+               <span class="list-post-description">{{ event.description }}</span>
+             </div>
+       
+     
+           </div>
+     
+         </a>
+     
+     
+        </div> 
+
+        <p id="info_present"></p>
 
 
-      <!--     <div class="list-item-icon container align-items-center justify-content-center">
-            <span class="feather-icon icon-{{post.icon}}" data-aos="fade-right" data-aos-offset="0" data-aos-delay="500"></span>
-          </div> -->
+   {% endfor %}
+
+   
+
+
+      <h3>Future Events</h3> 
+
+  {% for event in site.categories.events %}
+
+
+
+    <div future-date="{{ event.date | date: '%Y-%m-%d' }}" class="list-item container">
+
+  
+
+  <a href="{{ site.baseurl }}{{ event.url }}" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100">
+
+
+
+
+        
+      <div class="flex-grow-1">
+        <div class="" data-aos="fade-up" data-aos-delay="600" data-aos-offset="0">
+  
+            <h2 class="list-post-title">
+              {{ event.title }}  <sub><i> | {{ event.group }}</i></sub>
+            </h2>
       
-          <div class="flex-grow-1">
-            <div class="" data-aos="fade-up" data-aos-delay="600" data-aos-offset="0">
-      
-                <h2 class="list-post-title">
-                  <!-- <p>&#128204; <i>Pinned Event</i></p> -->
-                  &#128204; {{ event.title }}  <sub><i> | {{ event.group }}</i></sub>
-                </h2>
+        </div>
+
+        <div class="list-post-written" data-aos="fade-up" data-aos-delay="700" data-aos-offset="0">
+          <small>Organized by <span>{{ event.by }}</span>-</small>
+          <small><time>{{ event.date | date_to_string }}</time></small>
+        </div>
+  
+        <div class="" data-aos="fade-up" data-aos-delay="700" data-aos-offset="0">
+          <span class="list-post-description">{{ event.description }}</span>
+        </div>
+  
+
+      </div>
+
+    </a>
+
+   </div> 
+
+   <p id="info_future"></p>
+
+   {% endfor %}
+
+   <h3>Past Events</h3> 
+
+   {% for event in site.categories.events %}
+
+
+
+  <div past-date="{{ event.date | date: '%Y-%m-%d' }}" class="list-item container">
+
+
+
+
+    <a href="{{ site.baseurl }}{{ event.url }}" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100">
+  
+  
+  
+  
           
-            </div>
-      
-            <div class="" data-aos="fade-up" data-aos-delay="700" data-aos-offset="0">
-              <span class="list-post-description">{{ event.description }}</span>
-            </div>
-      
-            <div class="list-post-written" data-aos="fade-up" data-aos-delay="700" data-aos-offset="0">
-              <small>Written by <span>{{ event.by }}</span>-</small>
-              <small><time>{{ event.date | date_to_string }}</time></small>
-            </div>
-          </div>
-      
-        </a>
-
-      {% endif %}
+        <div class="flex-grow-1">
+          <div class="" data-aos="fade-up" data-aos-delay="600" data-aos-offset="0">
     
-    {% endfor %}
-
-
-    {% for event in site.categories.events %}
-
-      {% unless event.tags contains 'pinned' %}
-    
-    <a href="{{ site.baseurl }}{{ event.url }}" class="list-item container" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100">
-
-
-      <!--     <div class="list-item-icon container align-items-center justify-content-center">
-            <span class="feather-icon icon-{{post.icon}}" data-aos="fade-right" data-aos-offset="0" data-aos-delay="500"></span>
-          </div> -->
-      
-          <div class="flex-grow-1">
-            <div class="" data-aos="fade-up" data-aos-delay="600" data-aos-offset="0">
-      
-                <h2 class="list-post-title">
-                  {{ event.title }}  <sub><i> | {{ event.group }}</i></sub>
-                </h2>
-          
-            </div>
-      
-            <div class="" data-aos="fade-up" data-aos-delay="700" data-aos-offset="0">
-              <span class="list-post-description">{{ event.description }}</span>
-            </div>
-      
-            <div class="list-post-written" data-aos="fade-up" data-aos-delay="700" data-aos-offset="0">
-              <small>Written by <span>{{ event.by }}</span>-</small>
-              <small><time>{{ event.date | date_to_string }}</time></small>
-            </div>
+              <h2 class="list-post-title">
+                {{ event.title }}  <sub><i> | {{ event.group }}</i></sub>
+              </h2>
+        
           </div>
-      
-        </a>
+  
+          <div class="list-post-written" data-aos="fade-up" data-aos-delay="700" data-aos-offset="0">
+            <small>Organized by <span>{{ event.by }}</span>-</small>
+            <small><time>{{ event.date | date_to_string }}</time></small>
+          </div>
+    
+          <div class="" data-aos="fade-up" data-aos-delay="700" data-aos-offset="0">
+            <span class="list-post-description">{{ event.description }}</span>
+          </div>
+    
+  
+        </div>
+  
+      </a>
+  
+  
+     </div> 
 
-      {% endunless %}
+     <p id="info_past"></p>
 
-    {% endfor %} {% endif %}
-  </div>
+
+{% endfor %}
+
+
+
+{% endif %}
+
+</div>

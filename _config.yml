@@ -31,10 +31,4 @@ plugins_dir:
   - jekyll-admin
   - jekyll-feed
 
-menu:
-  - title:             Example
-    url:               /example/
-  - title:             Documentation
-    url:               /docs/
-  - title:             About
-    url:               /about/
+future: true

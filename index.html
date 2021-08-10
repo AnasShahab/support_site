@@ -7,6 +7,28 @@ layout: default
 
 <div class="content-post">
   <div class="size margin">
+    {% include announcements.html %}
+    {% include future-date-announcements.html %}
+  </div>
+</div> 
+
+
+<div class="content-post">
+  <div class="size margin">
     {% include posts.html %}
   </div>
 </div>  
+
+
+<!-- {{ site.time | date: '%B %d, %Y'}}
+---------------------
+{{ site.time | date: '%s'}}
+----------------------
+{{ site.time}}
+---------------------
+{{ "now" | date: "%Y-%m-%d %H:%M" }}
+----------------------------------
+{{ "now" | date: '%B %d, %Y'}} -->
+
+
+

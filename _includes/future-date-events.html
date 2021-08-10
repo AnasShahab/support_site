@@ -1,0 +1,47 @@
+<script>
+    function getCompareDate() {
+        var d = new Date(),
+            month = '' + (d.getMonth() + 1),
+            day = '' + d.getDate(),
+            year = d.getFullYear();
+        if (month.length < 2) month = '0' + month;
+        if (day.length < 2) day = '0' + day;
+        return [year, month, day].join('');
+    }
+    count_present=0;
+    var elements_present = document.querySelectorAll('[present-date]');
+    Array.prototype.forEach.call(elements_present, function(el, i){
+        if(el.getAttribute('present-date').split('-').join('') != getCompareDate()){
+            el.remove();
+            count_present++;
+        }
+    });
+    if(elements_present.length==count_present){
+        document.getElementById("info_present").innerHTML = "No present events to show";
+    }
+
+    count_future=0;
+    var elements_future = document.querySelectorAll('[future-date]');
+    Array.prototype.forEach.call(elements_future, function(el, i){
+        if(el.getAttribute('future-date').split('-').join('') <= getCompareDate()){
+            el.remove();
+            count_future++;
+        }
+    });
+    if(elements_future.length==count_future){
+        document.getElementById("info_future").innerHTML = "No future events to show";
+    }
+
+    count_past=0;
+    var elements_past = document.querySelectorAll('[past-date]');
+    Array.prototype.forEach.call(elements_past, function(el, i){
+        if(el.getAttribute('past-date').split('-').join('') >= getCompareDate()){
+            el.remove();
+            count_past++;
+        }
+    });
+    if(elements_past.length==count_past){
+        document.getElementById("info_past").innerHTML = "No past events to show";
+    }
+  
+  </script>

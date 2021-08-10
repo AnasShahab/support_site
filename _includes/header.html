@@ -14,7 +14,9 @@
 
         {% if page.url  != "/event_page.html" %}
 
-        <a href="{{ '/' | absolute_url }}event_page" data-aos="fade-up" data-aos-delay="" data-aos-offset="0"><button class="cancel-btn">Cancel</button></a>
+        <a href="{{ '/' | absolute_url }}event_page" data-aos="fade-up" data-aos-delay="" data-aos-offset="0">
+          <button class="cancel-btn feather-icon icon-corner-down-left">All events</button>
+        </a>
 
         {% else %}
 
@@ -29,9 +31,9 @@
  -->
 
 
-        <a href="{{ '/' | absolute_url }}event_sort_past.html"><button class="dropbtn">Past</button></a>
-        <a href="{{ '/' | absolute_url }}event_sort_present.html"><button class="dropbtn">Present</button></a>
-        <a href="{{ '/' | absolute_url }}event_sort_future.html"><button class="dropbtn">Future</button></a>
+        <a href="{{ '/' | absolute_url }}event_sort_workshop.html"><button class="dropbtn">Workshop</button></a>
+        <a href="{{ '/' | absolute_url }}event_sort_training.html"><button class="dropbtn">Training</button></a>
+        <a href="{{ '/' | absolute_url }}event_sort_seminar.html"><button class="dropbtn">Seminar</button></a>
 
 
         {% endif %}
@@ -75,7 +77,9 @@
 
       {% if page.url  != "/" %}
 
-        <a href="{{ '/' | absolute_url }}" data-aos="fade-up" data-aos-delay="" data-aos-offset="0"><button class="cancel-btn">Cancel</button></a>
+        <a href="{{ '/' | absolute_url }}" data-aos="fade-up" data-aos-delay="" data-aos-offset="0">
+          <button class="cancel-btn feather-icon feather-icon icon-corner-down-left">All posts</button>
+        </a>
 
       {% else %}
 

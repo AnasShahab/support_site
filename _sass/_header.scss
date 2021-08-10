@@ -11,6 +11,12 @@
   .header--block {
     color: $colortext;
 
+/*     .heading{
+      color: #fff;
+      font-weight: bold;
+      text-align: center;
+    } */
+
     .dropbtn {
       background-color: black;
       color: white;
@@ -59,14 +65,15 @@
     .show {display: block;} */
     
     .cancel-btn{
-      /* margin-left: 2px; */
-      margin-right: 10px;
-      background-color: red;
+      background-color: black;
       color: white;
       padding: 16px;
-      font-size: 12px;
+      font-size: 16px;
       cursor: pointer;
       border: none;
+      border-radius: 6px;
+      margin: 0px 5px 0px 5px;
+      width: 140px;
     }
     
     .header--block--text {}

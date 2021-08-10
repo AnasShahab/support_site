@@ -29,12 +29,14 @@ img { max-width: 100%; }
 
 .min-height { min-height: calc(100vh - 80px - 200px); padding-top: 20px; }
 
-.menu { background: #006400; position: sticky; top: 0; left: 0; z-index: 10; overflow: hidden; }
+.menu { background: black; position: sticky; top: 0; left: 0; z-index: 10; overflow: hidden; }
 
 .menu--content { height: 80px; }
 
 .menu a, .menu h1 { color: #fff; }
 
+/* .menu h1{ color: $colortheme;
+} */
 .menu a, .menu h1 span { font-weight: bold; }
 
 .back-to-site { font-size: 14px; }
@@ -45,10 +47,10 @@ img { max-width: 100%; }
 .bg-header { background: #000; }
 
 .header { min-height: 200px; background: url("../assets/img/pattern2.svg"), rgba(0, 100, 0, 0.9); background-size: 310px; width: 100%; }
-.header .header--block { color: #fff; /*     .dropbtn:hover, .dropbtn:focus { background-color: darkolivegreen; }  .dropdown { position: relative; display: inline-block; margin-right: 10px; }  .dropdown-content { display: none; position: absolute; background-color: #f1f1f1; min-width: 100px; overflow: auto; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); top: 0px; right: 85px; z-index: 1; }  .dropdown-content a { color: black; padding: 4px 14px; text-decoration: none; display: block; }  .dropdown a:hover {background-color: darkgreen;}  .show {display: block;} */ }
+.header .header--block { color: #fff; /*     .heading{ color: #fff; font-weight: bold; text-align: center; } */ /*     .dropbtn:hover, .dropbtn:focus { background-color: darkolivegreen; }  .dropdown { position: relative; display: inline-block; margin-right: 10px; }  .dropdown-content { display: none; position: absolute; background-color: #f1f1f1; min-width: 100px; overflow: auto; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); top: 0px; right: 85px; z-index: 1; }  .dropdown-content a { color: black; padding: 4px 14px; text-decoration: none; display: block; }  .dropdown a:hover {background-color: darkgreen;}  .show {display: block;} */ }
 .header .header--block .dropbtn { background-color: black; color: white; padding: 16px; font-size: 16px; cursor: pointer; border: none; border-radius: 6px; margin: 0px 5px 0px 5px; }
 .header .header--block button:hover { background-color: grey; }
-.header .header--block .cancel-btn { /* margin-left: 2px; */ margin-right: 10px; background-color: red; color: white; padding: 16px; font-size: 12px; cursor: pointer; border: none; }
+.header .header--block .cancel-btn { background-color: black; color: white; padding: 16px; font-size: 16px; cursor: pointer; border: none; border-radius: 6px; margin: 0px 5px 0px 5px; width: 140px; }
 .header .header--block .header--block--input { display: flex; align-items: center; background: #fff; margin-top: 20px; margin-bottom: 20px; border-radius: 4px; overflow: hidden; width: 100%; opacity: 0.5; transition: 0.3s; }
 .header .header--block .header--block--input:focus-within { opacity: 1; box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1); }
 .header .header--block .header--block--input:focus-within .header--block--input--icon { opacity: 1; }
@@ -564,6 +566,13 @@ img { max-width: 100%; }
 .list-item .list-post-description { font-size: 16px; }
 .list-item .list-post-written span { font-weight: bold; }
 .list-item small { font-size: 12px; opacity: 0.7; }
+
+.list-item-announcement { box-shadow: 0 3px 8px 0 rgba(214, 0, 0, 0.03); border: 1px solid red; background-color: rgba(189, 1, 1, 0.03); margin-bottom: 20px; padding: 20px; box-sizing: border-box; border-radius: 4px; transition: .3s; overflow: hidden; }
+.list-item-announcement:last-child { margin-bottom: 0px; }
+.list-item-announcement:hover { border-color: #006400; }
+.list-item-announcement .list-post-title-announcement { font-size: 22px; transition: .3s; color: #006400; }
+.list-item-announcement .list-post-description-announcement { font-size: 16px; }
+.list-item-announcement small { font-size: 12px; opacity: 0.7; }
 
 .list-item-2 { box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.03); border: 1px solid #C1C1C1; padding: 40px; box-sizing: border-box; transition: .3s; margin-bottom: 10px; overflow: hidden; }
 .list-item-2:hover { border-color: #006400; }

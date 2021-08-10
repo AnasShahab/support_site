@@ -1,0 +1,58 @@
+<div class="">
+    {% if site.categories.announcements.size == 0 %}
+    <h2>No announcements found</h2>
+    {% else %}
+
+    {% for announcement in site.categories.announcements %}
+
+    <div present-future-date="{{ announcement.date | date: '%Y-%m-%d' }}" class="list-item-announcement container">
+    
+      <div data-aos="fade-up" data-aos-offset="0" data-aos-delay="100">
+  
+        <div class="flex-grow-1">
+
+          <div class="" data-aos="fade-up" data-aos-delay="600" data-aos-offset="0">
+    
+              <h2 class="list-post-title-announcement">
+                &#128204; {{ announcement.title }} - <small>  <time>{{ announcement.date | date_to_string }}</time></small>
+              </h2>
+        
+          </div>
+    
+          <div class="" data-aos="fade-up" data-aos-delay="700" data-aos-offset="0">
+
+            <span class="list-post-description-announcement">{{ announcement.description }}</span>
+
+          </div>
+
+        </div>
+    
+      </div>
+    
+    </div> 
+
+    {% endfor %}
+     
+  {% endif %}
+</div>
+
+
+<!--   <script>
+    function getCompareDate() {
+        var d = new Date(),
+            month = '' + (d.getMonth() + 1),
+            day = '' + d.getDate(),
+            year = d.getFullYear();
+        if (month.length < 2) month = '0' + month;
+        if (day.length < 2) day = '0' + day;
+        return [year, month, day].join('');
+    }
+
+    var elements_present_future = document.querySelectorAll('[present-future-date]');
+    Array.prototype.forEach.call(elements_present_future, function(el, i){
+        if(el.getAttribute('present-future-date').split('-').join('') <= getCompareDate()){
+            el.remove();
+        }
+    });
+  
+</script> -->

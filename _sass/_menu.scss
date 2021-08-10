@@ -1,6 +1,6 @@
 
 .menu {
-  background: $colortheme;
+  background: black;
   position: sticky;
   top: 0;
   left: 0;
@@ -8,13 +8,18 @@
   overflow: hidden;
 }
 
+
 .menu--content {
   height: 80px;
 }
 
-.menu a, .menu h1 {
+.menu a, .menu h1{
   color: #fff;
 }
+
+/* .menu h1{
+  color: $colortheme;
+} */
 
 .menu a, .menu h1 span {
   font-weight: bold;
