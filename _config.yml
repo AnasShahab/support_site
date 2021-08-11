@@ -23,12 +23,13 @@ drink: 3
 # Build settings
 markdown: kramdown
 #permalink: /:title/
-gems: [jekyll-paginate]
+#gems: [jekyll-paginate]
 paginate: 5
 
 # Plugins
 plugins_dir:
   - jekyll-admin
   - jekyll-feed
+  - jekyll-paginate
 
 future: true
