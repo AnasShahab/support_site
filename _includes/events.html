@@ -4,7 +4,7 @@
     {% else %}
 
  
-      <h3>Present Events Happening Today</h3> 
+      <h2 class="posts-heading">Present Events Happening Today</h2> 
          
 
       {% for event in site.categories.events %}
@@ -47,10 +47,12 @@
 
    {% endfor %}
 
+   <hr>
+
    
 
 
-      <h3>Future Events</h3> 
+      <h2 class="posts-heading">Future Events</h2> 
 
   {% for event in site.categories.events %}
 
@@ -95,7 +97,9 @@
 
    {% endfor %}
 
-   <h3>Past Events</h3> 
+   <hr>
+
+   <h2 class="posts-heading">Past Events</h2> 
 
    {% for event in site.categories.events %}
 

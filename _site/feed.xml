@@ -5,9 +5,22 @@
     <description>A support page for data experts where you can get updates about the news and events</description>
     <link>http://localhost:4000/support_site/</link>
     <atom:link href="http://localhost:4000/support_site/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 11 Aug 2021 05:06:28 +0200</pubDate>
-    <lastBuildDate>Wed, 11 Aug 2021 05:06:28 +0200</lastBuildDate>
+    <pubDate>Mon, 16 Aug 2021 02:24:39 +0200</pubDate>
+    <lastBuildDate>Mon, 16 Aug 2021 02:24:39 +0200</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
+    
+      <item>
+        <title>Jira down</title>
+        <description>
+</description>
+        <pubDate>Fri, 29 Aug 2025 17:46:00 +0200</pubDate>
+        <link>http://localhost:4000/support_site/announcements/2025/08/29/announcement-2.html</link>
+        <guid isPermaLink="true">http://localhost:4000/support_site/announcements/2025/08/29/announcement-2.html</guid>
+        
+        
+        <category>announcements</category>
+        
+      </item>
     
       <item>
         <title>Some Training</title>
@@ -62,6 +75,19 @@
       </item>
     
       <item>
+        <title>Web server exploited</title>
+        <description>
+</description>
+        <pubDate>Fri, 10 Dec 2021 17:46:00 +0100</pubDate>
+        <link>http://localhost:4000/support_site/announcements/2021/12/10/announcement-3.html</link>
+        <guid isPermaLink="true">http://localhost:4000/support_site/announcements/2021/12/10/announcement-3.html</guid>
+        
+        
+        <category>announcements</category>
+        
+      </item>
+    
+      <item>
         <title>Kubernetes</title>
         <description>&lt;p&gt;Some content to be displayed when things are finalized.&lt;/p&gt;
 </description>
@@ -71,19 +97,6 @@
         
         
         <category>news</category>
-        
-      </item>
-    
-      <item>
-        <title>Jira down</title>
-        <description>
-</description>
-        <pubDate>Sun, 29 Aug 2021 17:46:00 +0200</pubDate>
-        <link>http://localhost:4000/support_site/announcements/2021/08/29/announcement-2.html</link>
-        <guid isPermaLink="true">http://localhost:4000/support_site/announcements/2021/08/29/announcement-2.html</guid>
-        
-        
-        <category>announcements</category>
         
       </item>
     
@@ -123,19 +136,6 @@
         
         
         <category>events</category>
-        
-      </item>
-    
-      <item>
-        <title>jekyll</title>
-        <description>&lt;p&gt;Some content to be displayed when things are finalized.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 10 Jul 2021 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/support_site/news/2021/07/10/question-5.html</link>
-        <guid isPermaLink="true">http://localhost:4000/support_site/news/2021/07/10/question-5.html</guid>
-        
-        
-        <category>news</category>
         
       </item>
     

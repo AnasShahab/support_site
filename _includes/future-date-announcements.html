@@ -8,12 +8,16 @@
         if (day.length < 2) day = '0' + day;
         return [year, month, day].join('');
     }
-
+    /* count=0; */
     var elements_present_future = document.querySelectorAll('[present-future-date]');
     Array.prototype.forEach.call(elements_present_future, function(el, i){
-        if(el.getAttribute('present-future-date').split('-').join('') <= getCompareDate()){
+        if(el.getAttribute('present-future-date').split('-').join('') < getCompareDate()){
+            /* window.alert("removing"); */
             el.remove();
+            /* count++; */
         }
     });
+/*     window.alert(elements_present_future.length)
+    window.alert(count) */
   
 </script>

@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://localhost:4000/support_site/announcements/2020/03/10/announcement-4.html</loc>
+<lastmod>2020-03-10T17:46:00+01:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/support_site/events/2020/06/22/event-6.html</loc>
 <lastmod>2020-06-22T17:46:00+02:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/support_site/events/2020/08/29/event-7.html</loc>
 <lastmod>2020-08-29T12:46:00+02:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/support_site/announcements/2021/02/10/announcement-3.html</loc>
-<lastmod>2021-02-10T17:46:00+01:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/support_site/announcements/2021/03/10/announcement-4.html</loc>
-<lastmod>2021-03-10T17:46:00+01:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/support_site/news/2021/06/12/question-1.html</loc>
@@ -45,12 +41,12 @@
 <lastmod>2021-08-15T17:46:00+02:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/support_site/announcements/2021/08/29/announcement-2.html</loc>
-<lastmod>2021-08-29T17:46:00+02:00</lastmod>
-</url>
-<url>
 <loc>http://localhost:4000/support_site/news/2021/09/12/question-3.html</loc>
 <lastmod>2021-09-12T21:46:41+02:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/support_site/announcements/2021/12/10/announcement-3.html</loc>
+<lastmod>2021-12-10T17:46:00+01:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/support_site/events/2022/06/22/event-4.html</loc>
@@ -67,6 +63,10 @@
 <url>
 <loc>http://localhost:4000/support_site/events/2022/10/22/event-3.html</loc>
 <lastmod>2022-10-22T15:50:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/support_site/announcements/2025/08/29/announcement-2.html</loc>
+<lastmod>2025-08-29T17:46:00+02:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/support_site/announcement_page.html</loc>

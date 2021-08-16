@@ -76,7 +76,13 @@
       width: 140px;
     }
     
-    .header--block--text {}
+    .header--block--text {
+/*       text-align: center; */
+    }
+
+    .header-heading{
+      color: #f3f5f7;
+    }
 
     .header--block--input {
       display: flex;

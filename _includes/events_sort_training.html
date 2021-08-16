@@ -3,7 +3,7 @@
     <h2>No event found</h2>
     {% else %}
 
-    <h3>Present Training Happening Today</h3> 
+    <h2 class="posts-heading">Present Training Happening Today</h2> 
 
     {% for event in site.categories.events %}
   
@@ -42,7 +42,9 @@
     {% endif %}
     {% endfor %} 
 
-    <h3>Future Training</h3> 
+    <hr>
+
+    <h2 class="posts-heading">Future Training</h2> 
 
     {% for event in site.categories.events %}
   
@@ -83,7 +85,9 @@
   {% endif %}
   {% endfor %} 
 
-  <h3>Past Training</h3> 
+  <hr>
+
+  <h2 class="posts-heading">Past Training</h2> 
 
   {% for event in site.categories.events %}
 

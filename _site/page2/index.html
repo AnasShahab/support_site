@@ -43,11 +43,11 @@
     <div class="menu">
   <div class="size margin menu--content container align-items-center justify-content-between">
 
-    <div class="site-title" data-aos="fade-up" data-aos-delay="" data-aos-offset="0">
+    <div class="site-title" data-aos="fade-right" data-aos-delay="" data-aos-offset="0">
       <a href="http://localhost:4000/support_site/"><h1><i>Support</i> Page</h1></a>
     </div>
 
-    <a href="https://www.data-experts.de" data-aos="fade-left" data-aos-delay="" data-aos-offset="0">
+    <a href="https://www.data-experts.de" data-aos="fade-right" data-aos-delay="" data-aos-offset="0">
       <div class="container align-items-baseline back-to-site">
         <div class="back-to-site-text">
           data experts
@@ -59,7 +59,7 @@
 
 
 
-    <a href="http://localhost:4000/support_site/event_page" data-aos="fade-left" data-aos-delay="" data-aos-offset="0">
+    <a href="http://localhost:4000/support_site/event_page" data-aos="fade-down" data-aos-delay="" data-aos-offset="0">
       <div class="container align-items-baseline back-to-site">
         <div class="">
           <span class="feather-icon icon-activity"></span>
@@ -129,7 +129,7 @@
       </div> -->
 
       <div class="header--block--text" data-aos="fade-up" data-aos-delay="" data-aos-offset="0">
-        Advice and answers from the data experts Team
+        <h2 class="header-heading"> Announcements, posts and events for data experts Team</h2>
       </div>
 
       <div class="container align-items-center" data-aos="fade-up" data-aos-delay="" data-aos-offset="0">
@@ -196,14 +196,14 @@
 
 </div>
 
-<div class="content-post">
+<div class="content-announcement">
   <div class="size margin">
     <div class="">
     
 
     
 
-    <div present-future-date="2021-08-29" class="list-item-announcement container">
+    <div present-future-date="2025-08-29" class="list-item-announcement container">
     
       <div data-aos="fade-up" data-aos-offset="0" data-aos-delay="100">
   
@@ -212,7 +212,7 @@
           <div class="" data-aos="fade-up" data-aos-delay="600" data-aos-offset="0">
     
               <h2 class="list-post-title-announcement">
-                &#128204; Jira down - <small>  <time>29 Aug 2021</time></small>
+                &#128204; Jira down - <small>  <time>29 Aug 2025</time></small>
               </h2>
         
           </div>
@@ -220,6 +220,34 @@
           <div class="" data-aos="fade-up" data-aos-delay="700" data-aos-offset="0">
 
             <span class="list-post-description-announcement">For some internal issues Jira will not be working until 14-06-2021.</span>
+
+          </div>
+
+        </div>
+    
+      </div>
+    
+    </div> 
+
+    
+
+    <div present-future-date="2021-12-10" class="list-item-announcement container">
+    
+      <div data-aos="fade-up" data-aos-offset="0" data-aos-delay="100">
+  
+        <div class="flex-grow-1">
+
+          <div class="" data-aos="fade-up" data-aos-delay="600" data-aos-offset="0">
+    
+              <h2 class="list-post-title-announcement">
+                &#128204; Web server exploited - <small>  <time>10 Dec 2021</time></small>
+              </h2>
+        
+          </div>
+    
+          <div class="" data-aos="fade-up" data-aos-delay="700" data-aos-offset="0">
+
+            <span class="list-post-description-announcement">Somone hacked into the web server. Be careful.</span>
 
           </div>
 
@@ -287,7 +315,7 @@
 
     
 
-    <div present-future-date="2021-03-10" class="list-item-announcement container">
+    <div present-future-date="2020-03-10" class="list-item-announcement container">
     
       <div data-aos="fade-up" data-aos-offset="0" data-aos-delay="100">
   
@@ -296,7 +324,7 @@
           <div class="" data-aos="fade-up" data-aos-delay="600" data-aos-offset="0">
     
               <h2 class="list-post-title-announcement">
-                &#128204; Office closed - <small>  <time>10 Mar 2021</time></small>
+                &#128204; Office closed - <small>  <time>10 Mar 2020</time></small>
               </h2>
         
           </div>
@@ -304,34 +332,6 @@
           <div class="" data-aos="fade-up" data-aos-delay="700" data-aos-offset="0">
 
             <span class="list-post-description-announcement">Due to some problem the office at Berlin will be closed until 18-03-2021</span>
-
-          </div>
-
-        </div>
-    
-      </div>
-    
-    </div> 
-
-    
-
-    <div present-future-date="2021-02-10" class="list-item-announcement container">
-    
-      <div data-aos="fade-up" data-aos-offset="0" data-aos-delay="100">
-  
-        <div class="flex-grow-1">
-
-          <div class="" data-aos="fade-up" data-aos-delay="600" data-aos-offset="0">
-    
-              <h2 class="list-post-title-announcement">
-                &#128204; Web server exploited - <small>  <time>10 Feb 2021</time></small>
-              </h2>
-        
-          </div>
-    
-          <div class="" data-aos="fade-up" data-aos-delay="700" data-aos-offset="0">
-
-            <span class="list-post-description-announcement">Somone hacked into the web server. Be careful.</span>
 
           </div>
 
@@ -356,18 +356,21 @@
         if (day.length < 2) day = '0' + day;
         return [year, month, day].join('');
     }
-
+    /* count=0; */
     var elements_present_future = document.querySelectorAll('[present-future-date]');
     Array.prototype.forEach.call(elements_present_future, function(el, i){
-        if(el.getAttribute('present-future-date').split('-').join('') <= getCompareDate()){
+        if(el.getAttribute('present-future-date').split('-').join('') < getCompareDate()){
+            /* window.alert("removing"); */
             el.remove();
+            /* count++; */
         }
     });
+/*     window.alert(elements_present_future.length)
+    window.alert(count) */
   
 </script>
   </div>
 </div> 
-
 
 <div class="content-post">
   <div class="size margin">
@@ -397,7 +400,7 @@
 
     -->
 
-  <h2>Posts</h2>
+  <h2 class="posts-heading">Posts</h2>
 
   
 
@@ -591,15 +594,18 @@
 </div>  
 
 
-<!-- August 11, 2021
+
+
+
+<!-- August 16, 2021
 ---------------------
-1628651188
+1629073479
 ----------------------
-2021-08-11 05:06:28 +0200
+2021-08-16 02:24:39 +0200
 ---------------------
-2021-08-11 05:06
+2021-08-16 02:24
 ----------------------------------
-August 11, 2021 -->
+August 16, 2021 -->
 
 
 
