@@ -9,9 +9,9 @@
 
   {% if event.group == "workshop" %}
 
-  <div present-date="{{ event.date | date: '%Y-%m-%d' }}" class="list-item container">
+  <a href="{{ site.baseurl }}{{ event.url }}" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100" present-date="{{ event.date | date: '%Y-%m-%d' }}" class="list-item container">
  
-  <a href="{{ site.baseurl }}{{ event.url }}" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100">
+<!--   <a href="{{ site.baseurl }}{{ event.url }}" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100"> -->
 
 
 <!--     <div class="list-item-icon container align-items-center justify-content-center">
@@ -36,9 +36,9 @@
 
     </div>
 
-  </a>
+<!--   </a> -->
 
-</div>
+  </a>
 <p id="info_present"></p>
 
   {% endif %}
@@ -52,9 +52,9 @@
 
   {% if event.group == "workshop" %}
 
-<div future-date="{{ event.date | date: '%Y-%m-%d' }}" class="list-item container">
+<a href="{{ site.baseurl }}{{ event.url }}" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100" future-date="{{ event.date | date: '%Y-%m-%d' }}" class="list-item container">
  
-  <a href="{{ site.baseurl }}{{ event.url }}" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100">
+<!--   <a href="{{ site.baseurl }}{{ event.url }}" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100"> -->
 
 
     <div class="flex-grow-1">
@@ -75,9 +75,9 @@
 
     </div>
 
-  </a>
+<!--   </a> -->
 
-</div>
+  </a>
 <p id="info_future"></p>
 
 {% endif %}
@@ -91,9 +91,9 @@
 
 {% if event.group == "workshop" %}
 
-<div past-date="{{ event.date | date: '%Y-%m-%d' }}" class="list-item container">
+<a href="{{ site.baseurl }}{{ event.url }}" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100" past-date="{{ event.date | date: '%Y-%m-%d' }}" class="list-item container">
  
-  <a href="{{ site.baseurl }}{{ event.url }}" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100">
+<!--   <a href="{{ site.baseurl }}{{ event.url }}" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100"> -->
 
 
 
@@ -115,9 +115,9 @@
 
     </div>
 
-  </a>
+<!--   </a> -->
 
-</div>
+  </a>
 
 <p id="info_past"></p>
 

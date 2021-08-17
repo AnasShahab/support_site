@@ -4,53 +4,16 @@
   {% else %}
    
 
- <!--  {% for post in site.categories.news %}
-
-    {% if post.tags contains 'pinned' %}
-
-    <a href="{{ site.baseurl }}{{ post.url }}" class="list-item container" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100">
-      
-          <div class="flex-grow-1">
-            <div class="" data-aos="fade-up" data-aos-delay="600" data-aos-offset="0">
-             
-                <h2 class="list-post-title">
-
-                  &#128204; {{ post.title }}  <sub><i> | {{ post.group }}</i></sub>
-                </h2>
-          
-            </div>
-      
-            <div class="" data-aos="fade-up" data-aos-delay="700" data-aos-offset="0">
-              <span class="list-post-description">{{ post.description }}</span>
-            </div>
-      
-            <div class="list-post-written" data-aos="fade-up" data-aos-delay="700" data-aos-offset="0">
-              <small>Written by <span>{{ post.by }}</span>-</small>
-              <small><time>{{ post.date | date_to_string }}</time></small>
-            </div>
-          </div>
-      
-        </a>
-    
-    {% endif %}
-
-  {% endfor %}  -->
-
   <h2 class="posts-heading">Posts</h2>
 
   {% for post in site.categories.news %}
 
-       <!-- {% unless post.tags contains 'pinned' %} -->
 
 
   <a href="{{ site.baseurl }}{{ post.url }}" class="list-item container" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100">
 
-
-<!--     <div class="list-item-icon container align-items-center justify-content-center">
-      <span class="feather-icon icon-{{post.icon}}" data-aos="fade-right" data-aos-offset="0" data-aos-delay="500"></span>
-    </div> -->
-
     <div class="flex-grow-1">
+
       <div class="" data-aos="fade-up" data-aos-delay="600" data-aos-offset="0">
 
           <h2 class="list-post-title">
@@ -67,13 +30,10 @@
       <div class="" data-aos="fade-up" data-aos-delay="700" data-aos-offset="0">
         <span class="list-post-description">{{ post.description }}</span>
       </div>
-
-
+      
     </div>
 
   </a>
-
-    <!-- {% endunless %} -->
 
   {% endfor %} 
   {% endif %}

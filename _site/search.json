@@ -1,78 +1,6 @@
 [
   
     {
-      "title"       : "Jira down",
-      "description" : "For some internal issues Jira will not be working until 14-06-2021.",
-      "date"        : "2025-08-29 17:46:00 +0200",
-      "categories"  : "announcements",
-      "by"          : "",
-      "url"         : "/support_site/announcements/2025/08/29/announcement-2.html",
-      "icon"        : "",
-      "questions"   : null
-
-    } ,
-  
-    {
-      "title"       : "Some Training",
-      "description" : "HTML tutorial will be given next year for helping those in need.",
-      "date"        : "2022-10-22 15:50:00 +0200",
-      "categories"  : "events",
-      "by"          : "Anas Shahab",
-      "url"         : "/support_site/events/2022/10/22/event-3.html",
-      "icon"        : "credit-card",
-      "questions"   : [{"question":"What will be taught?","answer":"HTML basics along with projects","image":"1.gif"},{"question":"Is  it free?","answer":"Yes completely free!.","image":"2.gif"},{"question":"Where can I register?","answer":"On our website.","image":"3.gif"},{"question":"Is there a deadline?","answer":"Yes, will be announced later.","image":"4.gif"}]
-
-    } ,
-  
-    {
-      "title"       : "HTML Training",
-      "description" : "HTML tutorial will be given next year for helping those in need.",
-      "date"        : "2022-06-22 17:46:00 +0200",
-      "categories"  : "events",
-      "by"          : "Anas Shahab",
-      "url"         : "/support_site/events/2022/06/22/event-5.html",
-      "icon"        : "credit-card",
-      "questions"   : [{"question":"What will be taught?","answer":"HTML basics along with projects","image":"1.gif"},{"question":"Is  it free?","answer":"Yes completely free!.","image":"2.gif"},{"question":"Where can I register?","answer":"On our website.","image":"3.gif"},{"question":"Is there a deadline?","answer":"Yes, will be announced later.","image":"4.gif"}]
-
-    } ,
-  
-    {
-      "title"       : "Some Seminar",
-      "description" : "HTML tutorial will be given next year for helping those in need.",
-      "date"        : "2022-06-22 16:10:00 +0200",
-      "categories"  : "events",
-      "by"          : "Anas Shahab",
-      "url"         : "/support_site/events/2022/06/22/event-2.html",
-      "icon"        : "credit-card",
-      "questions"   : [{"question":"What will be taught?","answer":"HTML basics along with projects","image":"1.gif"},{"question":"Is  it free?","answer":"Yes completely free!.","image":"2.gif"},{"question":"Where can I register?","answer":"On our website.","image":"3.gif"},{"question":"Is there a deadline?","answer":"Yes, will be announced later.","image":"4.gif"}]
-
-    } ,
-  
-    {
-      "title"       : "Some Workshop",
-      "description" : "HTML tutorial will be given next year for helping those in need.",
-      "date"        : "2022-06-22 12:46:00 +0200",
-      "categories"  : "events",
-      "by"          : "Anas Shahab",
-      "url"         : "/support_site/events/2022/06/22/event-4.html",
-      "icon"        : "credit-card",
-      "questions"   : [{"question":"What will be taught?","answer":"HTML basics along with projects","image":"1.gif"},{"question":"Is  it free?","answer":"Yes completely free!.","image":"2.gif"},{"question":"Where can I register?","answer":"On our website.","image":"3.gif"},{"question":"Is there a deadline?","answer":"Yes, will be announced later.","image":"4.gif"}]
-
-    } ,
-  
-    {
-      "title"       : "Web server exploited",
-      "description" : "Somone hacked into the web server. Be careful.",
-      "date"        : "2021-12-10 17:46:00 +0100",
-      "categories"  : "announcements",
-      "by"          : "",
-      "url"         : "/support_site/announcements/2021/12/10/announcement-3.html",
-      "icon"        : "",
-      "questions"   : null
-
-    } ,
-  
-    {
       "title"       : "Kubernetes",
       "description" : "Kubernetes is essentially a container orchestrator that helps make sure that each container is where it is supposed to be and that the containers can work together.",
       "date"        : "2021-09-12 21:46:41 +0200",
@@ -81,42 +9,6 @@
       "url"         : "/support_site/news/2021/09/12/question-3.html",
       "icon"        : "help-circle",
       "questions"   : [{"question":"Question 1","answer":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."},{"question":"Question 2","answer":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."},{"question":"Question 3","answer":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}]
-
-    } ,
-  
-    {
-      "title"       : "Confluence down",
-      "description" : "Due to some issues confluence will be down.",
-      "date"        : "2021-08-15 17:46:00 +0200",
-      "categories"  : "announcements",
-      "by"          : "",
-      "url"         : "/support_site/announcements/2021/08/15/announcement-1.html",
-      "icon"        : "",
-      "questions"   : null
-
-    } ,
-  
-    {
-      "title"       : "Employee required",
-      "description" : "Searching for a potential new employee.",
-      "date"        : "2021-08-12 17:46:00 +0200",
-      "categories"  : "announcements",
-      "by"          : "",
-      "url"         : "/support_site/announcements/2021/08/12/announcement-5.html",
-      "icon"        : "",
-      "questions"   : null
-
-    } ,
-  
-    {
-      "title"       : "PHP Training",
-      "description" : "PHP training is being given.",
-      "date"        : "2021-08-10 17:46:00 +0200",
-      "categories"  : "events",
-      "by"          : "Anas Shahab",
-      "url"         : "/support_site/events/2021/08/10/event-1.html",
-      "icon"        : "credit-card",
-      "questions"   : [{"question":"What is being taught?","answer":"PHP basics along with projects","image":"1.gif"},{"question":"Is  it free?","answer":"Yes completely free!.","image":"2.gif"},{"question":"Where can I register?","answer":"On our website.","image":"3.gif"},{"question":"Is there a deadline?","answer":"Yes, will be announced later.","image":"4.gif"}]
 
     } ,
   
@@ -165,42 +57,6 @@
       "url"         : "/support_site/news/2021/06/12/question-1.html",
       "icon"        : "credit-card",
       "questions"   : [{"question":"Question 1","answer":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.","image":"1.gif"},{"question":"Question 2","answer":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.","image":"2.gif"},{"question":"Question 3","answer":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.","image":"3.gif"},{"question":"Question 4","answer":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.","image":"4.gif"}]
-
-    } ,
-  
-    {
-      "title"       : "Cloud networking seminar",
-      "description" : "Seminar on cloud networking was held for mainly students.",
-      "date"        : "2020-08-29 12:46:00 +0200",
-      "categories"  : "events",
-      "by"          : "Anas Shahab",
-      "url"         : "/support_site/events/2020/08/29/event-7.html",
-      "icon"        : "credit-card",
-      "questions"   : [{"question":"What was be taught?","answer":"Cloud networking basics along with projects","image":"1.gif"},{"question":"Is  it free?","answer":"Yes completely free!.","image":"2.gif"},{"question":"Where can I register?","answer":"On our website.","image":"3.gif"},{"question":"Is there a deadline?","answer":"Yes, will be announced later.","image":"4.gif"}]
-
-    } ,
-  
-    {
-      "title"       : "CSS workshop",
-      "description" : "A workshop was held for CSS.",
-      "date"        : "2020-06-22 17:46:00 +0200",
-      "categories"  : "events",
-      "by"          : "Anas Shahab",
-      "url"         : "/support_site/events/2020/06/22/event-6.html",
-      "icon"        : "credit-card",
-      "questions"   : [{"question":"What will be taught?","answer":"Yes completely free!.","image":"2.gif"},{"question":"Where can I register?","answer":"On our website.","image":"3.gif"},{"question":"Is there a deadline?","answer":"Yes, will be announced later.","image":"4.gif"}]
-
-    } ,
-  
-    {
-      "title"       : "Office closed",
-      "description" : "Due to some problem the office at Berlin will be closed until 18-03-2021",
-      "date"        : "2020-03-10 17:46:00 +0100",
-      "categories"  : "announcements",
-      "by"          : "",
-      "url"         : "/support_site/announcements/2020/03/10/announcement-4.html",
-      "icon"        : "",
-      "questions"   : null
 
     } 
   

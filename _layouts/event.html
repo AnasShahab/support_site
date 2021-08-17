@@ -3,17 +3,23 @@ layout: default
 ---
 {% include minutes-to-read.html %}
 
+
+
+
 <!-- breadcrumbs -->
+
 <div class="size margin" data-aos="fade-right" data-aos-delay="100" data-aos-offset="0">
-  {% include breadcrumbs.html path=page.path title=page.title %}
+  {% include breadcrumbs.html identifier="event" %}
 </div>
+
 <!-- breadcrumbs -->
+
 
 <div class="size margin min-height">
   <article> 
     <!-- titles -->
     <div>
-      <h1 class="post-title" data-aos="fade-up" data-aos-delay="200" data-aos-offset="0">{{ page.title }}  
+      <h1 class="posts-heading-2" data-aos="fade-up" data-aos-delay="200" data-aos-offset="0">{{ page.title }}  
         <sub class="post-date"> <i> | {{ page.date | date_to_string }} </i></sub>
        </h1>
    </div>

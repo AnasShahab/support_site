@@ -46,7 +46,7 @@ img { max-width: 100%; }
 
 .bg-header { background: #000; }
 
-.header { min-height: 200px; background: url("../assets/img/pattern2.svg"), rgba(0, 100, 0, 0.9); background-size: 310px; width: 100%; }
+.header { min-height: 250px; background: url("../assets/img/pattern2.svg"), rgba(0, 100, 0, 0.9); background-size: 310px; width: 100%; }
 .header .header--block { color: #fff; /*     .heading{ color: #fff; font-weight: bold; text-align: center; } */ /*     .dropbtn:hover, .dropbtn:focus { background-color: darkolivegreen; }  .dropdown { position: relative; display: inline-block; margin-right: 10px; }  .dropdown-content { display: none; position: absolute; background-color: #f1f1f1; min-width: 100px; overflow: auto; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); top: 0px; right: 85px; z-index: 1; }  .dropdown-content a { color: black; padding: 4px 14px; text-decoration: none; display: block; }  .dropdown a:hover {background-color: darkgreen;}  .show {display: block;} */ }
 .header .header--block .dropbtn { background-color: black; color: white; padding: 16px; font-size: 16px; cursor: pointer; border: none; border-radius: 6px; margin: 0px 5px 0px 5px; }
 .header .header--block button:hover { background-color: grey; }
@@ -67,6 +67,8 @@ img { max-width: 100%; }
 .header--block--result ul li { border-bottom: 1px solid #ddd; border-left: 1px solid #ddd; border-right: 1px solid #ddd; padding: 10px; box-sizing: border-box; }
 .header--block--result ul li:first-child { border-top: 1px solid #ddd; }
 .header--block--result ul li a:hover { color: #006400; }
+
+.js-is-hidden { display: none; }
 
 .footer { min-height: 200px; background: #ECECEC; overflow: hidden; }
 .footer .footer--block a { color: #006400; }
@@ -561,6 +563,8 @@ img { max-width: 100%; }
 .content-post { /*  min-height: calc(100vh - 180px); */ background: #f7f7f3; padding-top: 30px; padding-bottom: 30px; }
 
 .posts-heading { font-size: 40px; color: #006400; margin-bottom: 20px; text-align: center; }
+
+.posts-heading-2 { font-size: 40px; color: #006400; }
 
 .post-date { font-size: 22px; }
 

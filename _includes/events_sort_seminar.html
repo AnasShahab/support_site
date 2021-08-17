@@ -9,9 +9,9 @@
 
   {% if event.group == "seminar" %}
 
-  <div present-date="{{ event.date | date: '%Y-%m-%d' }}" class="list-item container">
+  <a href="{{ site.baseurl }}{{ event.url }}" present-date="{{ event.date | date: '%Y-%m-%d' }}" class="list-item container" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100">
  
-  <a href="{{ site.baseurl }}{{ event.url }}" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100">
+  <!-- <a href="{{ site.baseurl }}{{ event.url }}" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100"> -->
 
     <div class="flex-grow-1">
       <div class="" data-aos="fade-up" data-aos-delay="600" data-aos-offset="0">
@@ -31,9 +31,9 @@
 
     </div>
 
-  </a>
+  <!-- </a> -->
 
-</div>
+  </a>
 
 <p id="info_present"></p>
 
@@ -48,9 +48,9 @@
 
   {% if event.group == "seminar" %}
 
-<div future-date="{{ event.date | date: '%Y-%m-%d' }}" class="list-item container">
+<a href="{{ site.baseurl }}{{ event.url }}" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100" future-date="{{ event.date | date: '%Y-%m-%d' }}" class="list-item container">
  
-  <a href="{{ site.baseurl }}{{ event.url }}" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100">
+  <!-- <a href="{{ site.baseurl }}{{ event.url }}" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100"> -->
 
 
     <div class="flex-grow-1">
@@ -71,9 +71,9 @@
 
     </div>
 
-  </a>
+  <!-- </a> -->
 
-</div>
+  </a>
 
 <p id="info_future"></p>
 
@@ -88,9 +88,9 @@
 
 {% if event.group == "seminar" %}
 
-<div past-date="{{ event.date | date: '%Y-%m-%d' }}" class="list-item container">
+<a href="{{ site.baseurl }}{{ event.url }}" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100" past-date="{{ event.date | date: '%Y-%m-%d' }}" class="list-item container">
  
-  <a href="{{ site.baseurl }}{{ event.url }}" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100">
+  <!-- <a href="{{ site.baseurl }}{{ event.url }}" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100"> -->
 
 
     <div class="flex-grow-1">
@@ -111,9 +111,9 @@
 
     </div>
 
-  </a>
+  <!-- </a> -->
 
-</div>
+  </a>
 
 <p id="info_past"></p>
 

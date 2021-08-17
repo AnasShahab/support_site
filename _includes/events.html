@@ -10,10 +10,10 @@
       {% for event in site.categories.events %}
 
      
-     <div present-date="{{ event.date | date: '%Y-%m-%d' }}" class="list-item container">
+     <a href="{{ site.baseurl }}{{ event.url }}" present-date="{{ event.date | date: '%Y-%m-%d' }}" class="list-item container" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100">
      
     
-       <a href="{{ site.baseurl }}{{ event.url }}" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100">
+       <!-- <a href="{{ site.baseurl }}{{ event.url }}" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100"> -->
 
   
            <div class="flex-grow-1">
@@ -37,10 +37,10 @@
      
            </div>
      
-         </a>
+         <!-- </a> -->
      
      
-        </div> 
+          </a> 
 
         <p id="info_present"></p>
 
@@ -58,11 +58,11 @@
 
 
 
-    <div future-date="{{ event.date | date: '%Y-%m-%d' }}" class="list-item container">
+  <a href="{{ site.baseurl }}{{ event.url }}" future-date="{{ event.date | date: '%Y-%m-%d' }}" class="list-item container" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100">
 
   
 
-  <a href="{{ site.baseurl }}{{ event.url }}" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100">
+  <!-- <a href="{{ site.baseurl }}{{ event.url }}" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100"> -->
 
 
 
@@ -89,9 +89,9 @@
 
       </div>
 
-    </a>
+    <!-- </a> -->
 
-   </div> 
+    </a> 
 
    <p id="info_future"></p>
 
@@ -105,12 +105,12 @@
 
 
 
-  <div past-date="{{ event.date | date: '%Y-%m-%d' }}" class="list-item container">
+  <a href="{{ site.baseurl }}{{ event.url }}" past-date="{{ event.date | date: '%Y-%m-%d' }}" class="list-item container" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100">
 
 
 
 
-    <a href="{{ site.baseurl }}{{ event.url }}" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100">
+    <!-- <a href="{{ site.baseurl }}{{ event.url }}" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100"> -->
   
   
   
@@ -137,10 +137,10 @@
   
         </div>
   
-      </a>
+      <!-- </a> -->
   
   
-     </div> 
+      </a> 
 
      <p id="info_past"></p>
 

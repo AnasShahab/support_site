@@ -3,151 +3,91 @@
   <div class="header container align-items-center justify-content-center">
     <div class="header--block size margin container column">
 
-
       {% if page.url contains "event" %}
-
       <div class="header--block--text" data-aos="fade-up" data-aos-delay="" data-aos-offset="0">
         <h2 class="header-heading">Events</h2> 
       </div>
 
-      <div class="container align-items-center" data-aos="fade-up" data-aos-delay="" data-aos-offset="0">
 
-        {% if page.url  != "/event_page.html" %}
+      <div class="container column position-search">
 
+        <div class="header--block--input" data-aos="fade-up" data-aos-delay="" data-aos-offset="0" id="search-container">
+
+          <div class="header--block--input--icon">
+            <span class="feather-icon icon-search"></span>
+          </div>
+
+          <input class="input-search" type="text" name="" value="" placeholder="Search for events..." id="search-input">
+
+        </div>
+
+        <div class="header--block--result">
+          <ul id="results-container"></ul>
+        </div>
+
+      </div>
+      
+
+        {% if page.url != "/event_page.html" %}
         <a href="{{ '/' | absolute_url }}event_page" data-aos="fade-up" data-aos-delay="" data-aos-offset="0">
           <button class="cancel-btn feather-icon icon-corner-down-left">All events</button>
         </a>
 
         {% else %}
+        <div class="container align-items-center" data-aos="fade-up" data-aos-delay="" data-aos-offset="0">
 
-<!--         <div class="dropdown">
-          <button onclick="myFunction()" class="dropbtn">&#9664;&nbsp;&nbsp;Filter</button>
-          <div id="myDropdown" class="dropdown-content">
-            <a href="{{ '/' | absolute_url }}event_sort_past.html">Past</a>
-            <a href="{{ '/' | absolute_url }}event_sort_present.html">Present</a>
-            <a href="{{ '/' | absolute_url }}event_sort_future.html">Future</a>
-          </div>
+          <a href="{{ '/' | absolute_url }}event_sort_workshop.html"><button class="dropbtn">Workshop</button></a>
+          <a href="{{ '/' | absolute_url }}event_sort_training.html"><button class="dropbtn">Training</button></a>
+          <a href="{{ '/' | absolute_url }}event_sort_seminar.html"><button class="dropbtn">Seminar</button></a>
+
         </div>
- -->
-
-
-        <a href="{{ '/' | absolute_url }}event_sort_workshop.html"><button class="dropbtn">Workshop</button></a>
-        <a href="{{ '/' | absolute_url }}event_sort_training.html"><button class="dropbtn">Training</button></a>
-        <a href="{{ '/' | absolute_url }}event_sort_seminar.html"><button class="dropbtn">Seminar</button></a>
-
 
         {% endif %}
-        <!-- <div class="container column position-search"> -->
+
         
+      {% else %}
+      <div class="header--block--text" data-aos="fade-up" data-aos-delay="" data-aos-offset="0">
+        <h2 class="header-heading">Announcements, posts and events for data experts Team</h2>
+      </div>
+
+      <div class="container column position-search">
+
         <div class="header--block--input" data-aos="fade-up" data-aos-delay="" data-aos-offset="0" id="search-container">
+
           <div class="header--block--input--icon">
-            <!-- <img src="{{ site.baseurl }}/assets/img/icons/search-input.svg" width="30" alt=""> -->
             <span class="feather-icon icon-search"></span>
           </div>
-          <input class="input-search" type="text" name="" value="" placeholder="Search for events..." id="search-input">
+
+          <input class="input-search" type="text" name="" value="" placeholder="Search for posts..." id="search-input">
+
         </div>
 
         <div class="header--block--result">
           <ul id="results-container"></ul>
         </div>
 
-        <!-- </div> -->
-  
-
       </div>
 
 
+        {% if page.url  != "/" %}
+          <a href="{{ '/' | absolute_url }}" data-aos="fade-up" data-aos-delay="" data-aos-offset="0">
+            <button class="cancel-btn feather-icon feather-icon icon-corner-down-left">All posts</button>
+          </a>
 
-    {% else %}
+        {% else %}
+        <div class="container align-items-center" data-aos="fade-up" data-aos-delay="" data-aos-offset="0">
 
+          <a href="{{ '/' | absolute_url }}post_sort_primary.html"><button class="dropbtn">Primary</button></a>
+          <a href="{{ '/' | absolute_url }}post_sort_secondary.html"><button class="dropbtn">Secondary</button></a>
 
-  
-<!-- 
-    <div class="size margin menu--content container align-items-center justify-content-between">
+        </div>
 
-      <div class="header--block--text" data-aos="fade-up" data-aos-delay="" data-aos-offset="0">
-        Advice and answers from the data experts Team
-      </div> -->
-
-      <div class="header--block--text" data-aos="fade-up" data-aos-delay="" data-aos-offset="0">
-        <h2 class="header-heading"> Announcements, posts and events for data experts Team</h2>
-      </div>
-
-      <div class="container align-items-center" data-aos="fade-up" data-aos-delay="" data-aos-offset="0">
-
-      {% if page.url  != "/" %}
-
-        <a href="{{ '/' | absolute_url }}" data-aos="fade-up" data-aos-delay="" data-aos-offset="0">
-          <button class="cancel-btn feather-icon feather-icon icon-corner-down-left">All posts</button>
-        </a>
-
-      {% else %}
-
-<!--         <div class="dropdown">
-          <button onclick="myFunction()" class="dropbtn">&#9664;&nbsp;&nbsp;Filter</button>
-          <div id="myDropdown" class="dropdown-content">
-            
-            <a href="{{ '/' | absolute_url }}post_sort_primary.html">Primary</a>
-            <a href="{{ '/' | absolute_url }}post_sort_secondary.html">Secondary</a>
-          </div>
-        </div> -->
-
-
-        <a href="{{ '/' | absolute_url }}post_sort_primary.html"><button class="dropbtn">Primary</button></a>
-        <a href="{{ '/' | absolute_url }}post_sort_secondary.html"><button class="dropbtn">Secondary</button></a>
-
-
+        {% endif %}
 
       {% endif %}
 
-        <!-- <div class="container column position-search"> -->
-        
-        <div class="header--block--input" data-aos="fade-up" data-aos-delay="" data-aos-offset="0" id="search-container">
-          <div class="header--block--input--icon">
-            <!-- <img src="{{ site.baseurl }}/assets/img/icons/search-input.svg" width="30" alt=""> -->
-            <span class="feather-icon icon-search"></span>
-          </div>
-          <input class="input-search" type="text" name="" value="" placeholder="Search for posts..." id="search-input">
-        </div>
-
-        <div class="header--block--result">
-          <ul id="results-container"></ul>
-        </div>
-
-        <!-- </div> -->
-  
-      </div>
-
-    
-    {% endif %}
 
     </div>
   </div>
-<!--   {{ include.content }} -->
 
-  <script>
-    /* When the user clicks on the button, 
-    toggle between hiding and showing the dropdown content */
-    function myFunction() {
-     /*  var x=parseInt("{{ site.drink }}");
-      x+=1;
-      window.alert(x); */
-      document.getElementById("myDropdown").classList.toggle("show");
-    }
-    
-    // Close the dropdown if the user clicks outside of it
-    window.onclick = function(event) {
-      if (!event.target.matches('.dropbtn')) {
-        var dropdowns = document.getElementsByClassName("dropdown-content");
-        var i;
-        for (i = 0; i < dropdowns.length; i++) {
-          var openDropdown = dropdowns[i];
-          if (openDropdown.classList.contains('show')) {
-            openDropdown.classList.remove('show');
-          }
-        }
-      }
-    }
-    </script>
 </header>
-
